@@ -1,0 +1,392 @@
+---
+title: "Introduction to R"
+author: "Eirini Zormpa"
+institute: "The RSA"
+title-slide-attributes:
+    data-background-image: https://images.unsplash.com/photo-1664448021787-7893ce42f81a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8ODR8fHxlbnwwfHx8fHw%3D
+    data-background-opacity: "0.5"
+format:
+  revealjs:
+    theme: [moon, custom.scss]
+    slide-number: true
+from: markdown+emoji
+---
+
+## Introductions :wave:
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+```{r}
+#| echo: false
+
+library(here)
+library(readr)
+library(countdown)
+```
+
+
+![](https://www.thersa.org/globalassets/_foundation/new-site-blocks-and-images/staff-page/2022-staff-images/eirini-zormpa.jpg){.absolute top=85 right=50 width="350" height="350"}
+
+::: {.column width="60%"}
+**Eirini Zormpa**, Quantitative Researcher
+
+<br>
+
+Previously:
+
+- **PhD Student** @ Max Planck Institute for Psycholinguistics :brain:
+- **Trainer on Research Data Management & Open Science** @ Delft University of Technology :computer:
+- **Research Community Manager** @ The Alan Turing Institute :robot:
+:::
+
+
+# Introduction to R
+
+## Why R?
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+R is both a programming language and the software used to interpret it.
+It is **free** and **open source**. :x: :moneybag: = :tada:
+
+. . .
+
+- :recycle: **reproducibility**: R is not point-and-click, so when repeating an analysis, you don't have to remember what you pressed when. It's all written down for you in a script!
+
+. . .
+
+- :floppy_disk: **working with data**: R was created by statisticians for statistics. It has useful features for data analysis and allows you to make beautiful graphics.
+
+. . .
+
+- :milky_way: **working in any discipline**: R is open source, meaning anyone can contribute code to extend its functionality (currently in 10,000+ packages).
+
+## Why R Studio?
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+**RStudio** is an Integrated Development Environment with a **free and open-source version**, which makes working with R much easier. 
+
+. . .
+
+- :computer: it makes it easier to develop code by allowing us to navigate computer files and inspect data and variables. We will use R entirely through RStudio.
+
+. . .
+
+- :open_file_folder: it supports reproducibility through features like `projects`.
+
+. . .
+
+- :card_index: it provides a Graphical User Interface to work with `git`.
+
+::: aside
+*RStudio* used to also be the name of the company that develops RStudio but they rebranded as *Posit* a couple of years ago.
+:::
+
+## Learning objectives
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+- Navigate the RStudio Graphical User Interface (GUI).
+- Install `packages` to access additional functionality.
+- Perform simple arithmetic calculations in R.
+- Understand programming terms, like `objects`, `functions`, `arguments` and `vectors`.
+- Learn basic ways to work with missing data.
+
+## R Projects: File paths :recycle:
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+Below you see two ways of reading data into R.
+They both work and they both access the same file.
+
+Which one looks more reproducible?:
+
+
+```{r}
+#| echo: true
+#| eval: false
+
+# option 1: absolute path
+interviews <- read_csv("/Users/Eirini.zormpa/Documents/rsa-r-training/data_raw/SAFI_clean.csv")
+
+# option 2: relative path
+ceramics_data <- read_csv("data_raw/SAFI_clean.csv")
+```
+
+. . .
+
+Option 2 is more reproducible, as it allows you to move your project around on your computer and share it with others without having to directly modify file paths in the individual scripts.
+
+## R Projects: Folder structure :recycle:
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+It is good practice to keep all files related to a project in a single folder, called the `working directory`.
+This includes data, scripts, outputs, and documentation.  
+
+This makes sharing and documenting your projects much easier.
+
+```{mermaid}
+flowchart TB
+  A[working-directory] --> B["data_raw/"]
+  A[working-directory] --> C["data_processed/"]
+  A[working-directory] --> D["figures/"]
+  A[working-directory] --> E([LICENCE.md])
+  A[working-directory] --> F([paper.qmd])
+  A[working-directory] --> G([README.md])
+  A[working-directory] --> H["scripts/"]
+
+```
+
+## Create an R Project
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+1. Under the **`File`** menu, click on **`New project`**
+2. In the wizard that pops up click on **`New directory`** > **`New project`**
+3. You will now create the working directory for the rest of the workshop and save it in a convenient location.
+4. Give a good name to your new directory (folder), e.g. **`r-workshop`**. Make sure your name doesn't have spaces or special characters!
+5. Click on **`Browse`** and navigate to a suitable location for this repository and click on **`Open`** when you are in a location you are happy with.
+3. Click on **`Create project`**.
+
+## Exercise 1.1
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+:alarm_clock: **3 mins**
+
+```{r}
+countdown(minutes = 3)
+```
+
+
+Find out the current content of the object `area_acres`.
+
+## Exercise 1.1 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+Because we have not rerun the code `area_acres <- 2.47*area_hectares` after assigning the new value of `area_hectares` the value of `area_acres` is still `6.175`.
+
+## Exercise 1.2
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+:alarm_clock: **5 mins**
+
+```{r}
+countdown(minutes = 5)
+```
+
+Create two variables `r_length` and `r_width` and assign them values.
+Create a third variable `r_area` and give it a value based on the current values of `r_length` and `r_width.`
+Show that changing the values of either `r_length` or `r_width` does not affect the value of `r_area.`
+
+
+## Exercise 1.2 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+```{r}
+#| echo: true
+#| eval: true
+
+r_length <- 2.5
+r_width <- 3.2
+r_area <- r_length * r_width
+r_area
+
+# change the values of r_length and r_width
+r_length <- 7.0
+r_width <- 6.5
+
+# the value of r_area isn't changed
+r_area
+
+```
+
+## Functions and their arguments
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+- **Functions** are like "canned" scripts that do a specific task.
+
+. . .
+
+- They usually take some kind of input (called an **argument**) and often give back some kind of output. 
+
+. . .
+
+- Running or executing a function is often termed **calling** a function. 
+
+. . .
+
+- The arguments of functions can be anything: e.g. numbers, filenames, but also other objects.
+
+## Vectors and data structures
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+- A *vector* is the simplest R data structure. 
+
+. . .
+
+- It is composed by a series of values **of the same type**, e.g.*character* and *numeric* (or *double*). 
+
+. . .
+
+- Other vector types are: *logical* for `TRUE` and `FALSE`, *integer* for integer numbers and two others we won't discuss (*complex* and *raw*).
+
+. . .
+
+- The other data structure, other than vectors, we'll talk about today is the *tibble*.
+
+## Exercise 1.3
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+:alarm_clock: **10 mins**
+
+```{r}
+countdown(minutes = 10)
+```
+
+What will happen in each of these examples?
+
+```{r}
+#| echo: true
+
+num_char <- c(1, 2, 3, "a")
+num_logical <- c(1, 2, 3, TRUE)
+char_logical <- c("a", "b", "c", TRUE)
+tricky <- c(1, 2, 3, "4")
+```
+
+**Hint**: use `typeof()` to check the data type of your objects
+
+## Exercise 1.3 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+```{r}
+#| echo: true
+
+typeof(num_char)
+typeof(num_logical)
+typeof(char_logical)
+typeof(tricky)
+```
+
+Vectors can be of only **one data type**. R tries to convert (coerce) the content of this vector to find a "common denominator" that doesn’t lose any information.
+
+## Exercise 1.4
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+:alarm_clock: **10 mins**
+
+```{r}
+countdown(minutes = 10)
+```
+
+
+```{r}
+#| echo: true
+rooms <- c(1, 2, 1, 1, NA, 3, 1, 3, 2, 1, 1, 8, 3, 1, NA, 1)
+```
+
+1. Using the above vector, create a new vector with the `NA`s removed.
+2. Use the function `median()` to calculate the median of the `rooms` vector.
+3. How many households have more than two rooms?
+
+## Exercise 1.4 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+```{r}
+#| echo: true
+
+# 1. 
+rooms_no_na <- rooms[!is.na(rooms)]
+# or
+rooms_no_na <- na.omit(rooms)
+
+# 2.
+median(rooms, na.rm = TRUE)
+
+# 3.
+rooms_above_2 <- rooms_no_na[rooms_no_na > 2]
+length(rooms_above_2)
+```
+
+
+## Summary
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+So far you have learned how to:
+
+- :white_check_mark: Interact with the RStudio GUI, 
+- :white_check_mark: Set up projects, 
+- :white_check_mark: Create files from RStudio, 
+- :white_check_mark: Assign values to objects, 
+- :white_check_mark: Use functions, 
+- :white_check_mark: Create and subset vectors, 
+- :white_check_mark: Work with missing data 
+
+
+
+## Programming note
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+When we say R is a language, we mean just that: We need to learn **a new way of communicating** that lets us talk to the R software. 
+
+<br>
+
+Software isn't as smart as humans and have no tolerance for errors: if we don't tell it what we do just the way it wants, it won't work. 
+
+<br>
+
+Learning how to speak the software's language takes time and practice, but we're here to help you :muscle::sparkles:
+
+# Thank you for your attention :sparkles:
