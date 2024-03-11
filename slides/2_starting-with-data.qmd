@@ -1,0 +1,346 @@
+---
+title: "Getting started with data in R"
+author: "Eirini Zormpa"
+institute: "The RSA"
+title-slide-attributes:
+    data-background-image: https://images.unsplash.com/photo-1655721529468-d0d81b2dc489?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    data-background-opacity: "0.5"
+format:
+  revealjs:
+    theme: [moon, custom.scss]
+    slide-number: true
+from: markdown+emoji
+---
+
+```{r}
+#| echo: false
+
+library(here)
+library(readr)
+library(countdown)
+
+library(forcats)
+
+library(lubridate)
+
+```
+
+## Last time you learned how to:
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+- :white_check_mark: Interact with the RStudio GUI, 
+- :white_check_mark: Set up projects, 
+- :white_check_mark: Create files from RStudio, 
+- :white_check_mark: Assign values to objects, 
+- :white_check_mark: Use functions, 
+- :white_check_mark: Create and subset vectors, 
+- :white_check_mark: Work with missing data 
+
+
+## Learning objectives
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+- Read data into R.
+- Understand and manipulate `data.frames` or `tibbles`.
+- Understand and manipulate `factors`.
+- Alternate between date formats.
+
+## Data frames
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+`data.frames` are the standard data structure for tabular data in `R`. 
+
+They look very similar to spreadsheets (like in Excel) but each column is, in fact, a vector:
+
+- Each vector needs to be of the same length, for a perfect rectangle.
+- Because the columns are all vectors, they must all be of the *same type*.
+
+. . .
+
+### A note on terminology
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+Technically, what we will be working with in these workshops aren't `data.frames`, they are `tibbles`.
+`tibbles` are basically data frames for the `tidyverse` - they have some subtle differences but nothing you need to be aware of at this point.
+
+## Tabular data: What is tidy data?
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+![](https://www.openscapes.org/img/blog/tidydata/tidydata_1.jpg){width="90%" height="90%"}
+
+::: aside
+Image from [Tidy Data for reproducibility, efficiency, and collaboration](https://www.openscapes.org/blog/2020/10/12/tidy-data/) by Julia Lowndes and Allison Horst.
+:::
+
+## Tabular data: Why tidy data?
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+![](https://www.openscapes.org/img/blog/tidydata/tidydata_2.jpg){width="90%" height="90%"}
+
+::: aside
+lmage from [Tidy Data for reproducibility, efficiency, and collaboration](https://www.openscapes.org/blog/2020/10/12/tidy-data/) by Julia Lowndes and Allison Horst.
+:::
+
+## Tabular data: File formats
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+#### Comma-delimited (.csv)
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+- :thumbsup: commonly used
+- :thumbsdown: annoying when data itself contains commas
+
+::::
+
+::: {.column width="50%"}
+
+#### Tab-delimited (.tsv)
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+- :thumbsup: no confusion when data contains commas or semicolons
+- :thumbsdown: not very commonly used (at least not yet)
+
+:::
+
+::::
+
+## The data
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+<p style="text-align: center;">:warning: **NOT REAL DATA** :warning: </p>
+
+<br>
+
+The data have been modified from another dataset to mimic ONS Census data.
+Their sole purpose is to be used in training.
+
+
+## The data: variables
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+| variable | description |
+|----------|-------------|
+| ID | a number to identify the participant |
+| region | where in the UK the participant is located |
+| interview_date | the date the interview took place |
+| household_size | the number of members in the household |
+| dwelling_type | the type of dwelling |
+| bedrooms | the number of bedrooms in the dwelling |
+| central_heating | whether the dwelling has central heating |
+| cars | the number of cars the participant owns |
+| community_establishment | the types of community establishment in the area |
+| religion | the participant's religion |
+
+## Importing data: Folders
+
+1. Double click on the R Project you created for the workshop to open RStudio.
+2. Check that the files you see in your `Files` tab are the right ones (you should only see the `scripts` folder and the `.Rproj` file)
+3. Go to the console and type the following commands
+
+```{r}
+#| echo: true
+#| eval: false
+
+# create separate folders for the raw and clean data
+dir.create("data_raw")
+dir.create("data_clean")
+
+# only if you don't have one already, create a folder for the scripts
+dir.create("scripts")
+```
+
+## Importing data: Download
+
+Then we need to 1) download the data from Zenodo and 2) save it in the `data_raw` folder we just created it.
+
+We can do both in one go in R by typing the following command in the console:
+
+```{r download-data, eval=FALSE}
+#| echo: true
+#| eval: false
+
+# download the data
+download.file(url = "https://raw.githubusercontent.com/eirini-zormpa/r-training/main/data_raw/synthetic-census-data.csv?download=1",
+              destfile = here("data_raw/census_data.csv"))
+```
+
+After you have run this command, open the `data_raw` folder and check that there is a file called `census_data.csv`.
+
+
+## Exercise 2.1
+
+:alarm_clock: **10 mins**
+
+```{r}
+countdown(minutes = 10)
+```
+
+
+- Create a new tibble (`census_200`) with the data in row 200 of `census_data`
+- Create a new tibble (`census_last`) from the last row, without typing out the row number
+  - Check the output against `tail()`
+- Create a new tibble (`census_middle`) from the middle row of the dataset
+- Use the `-` notation to reproduce the behavior of `head(census_data)` (show rows 1-6)
+
+## Exercise 2.1 solution
+
+```{r}
+#| echo: false
+#| eval: true
+
+census_data <- read_csv(here("data_raw/synthetic-census-data.csv"))
+```
+
+```{r}
+#| echo: true
+#| eval: false
+
+## 1.
+census_200 <- census_data[200, ]
+## 2.
+# Saving `n_rows` to improve readability and reduce duplication
+n_rows <- nrow(census_data)
+census_last <- census_data[n_rows, ]
+## 3.
+census_middle <- census_data[n_rows / 2, ]
+## 4.
+census_head <- census_data[-(7:n_rows), ]
+```
+
+## Factors
+
+R has a special data class, called `factor`, to deal with *categorical data*. Factors:
+
+- are stored as **integers** associated with labels, though they look like character vectors
+
+. . .
+
+- can be ordered (ordinal) or unordered (nominal)
+
+. . .
+
+-  create a structured relation between the different `levels` (values) of a categorical variable, such as days of the week or responses to a question in a survey
+
+
+
+## Exercise 2.2
+
+:alarm_clock: **5 mins**
+
+```{r}
+countdown(minutes = 5)
+```
+
+1. Change the columns `region` and `dwelling_type` in the `census_data` data frame into a factor.
+2. Using the functions you learned before, can you find out…
+  - How many different dwelling types there are in the `dwelling_type` column?
+  - How many participants there are who are based in London?
+
+
+
+## Exercise 2.2 solution
+
+```{r}
+#| echo: true
+#| eval: false
+
+census_data$dwelling_type <- factor(census_data$dwelling_type)
+census_data$region <- factor(census_data$region)
+
+nlevels(census_data$dwelling_type)
+summary(census_data)
+```
+
+## Exercise 2.3
+
+:alarm_clock: **5 mins**
+
+```{r}
+countdown(minutes = 5)
+```
+
+1. Rename “no”, “yes”, and "unknown" to “No”, “Yes” and "Unknown" respectively.
+2. Recreate the barplot such that “Unknown” is last.
+
+## Exercise 2.3 solution
+
+```{r}
+#| echo: true
+#| eval: true
+
+census_data$central_heating <- fct_recode(census_data$central_heating,
+                              No = "no",
+                              Unknown = "unknown",
+                              Yes = "yes")
+
+census_data$central_heating <- factor(census_data$central_heating, levels = c("No", "Yes", "Unknown"))
+
+plot(census_data$central_heating)
+
+```
+
+## Dates
+
+To avoid ambiguity, use the [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339) standard: **YYYYMMDD** (or YYYY-MM-DD).
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Date_format_by_country_revised.svg/1600px-Date_format_by_country_revised.svg.png){width=810 height=450}
+
+::: aside
+This [image](https://en.m.wikipedia.org/wiki/File:Date_format_by_country_revised.svg) was created for [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page) and is used under a [CC-BY-SA licence](https://creativecommons.org/licenses/by-sa/4.0/).
+:::
+
+
+## Summary
+
+- :white_check_mark: Read data into R.
+- :white_check_mark: Understand and manipulate `data frames`.
+- :white_check_mark: Understand and manipulate `factors`.
+- :white_check_mark: Alternate between date formats.
