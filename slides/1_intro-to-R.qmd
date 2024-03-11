@@ -177,7 +177,7 @@ countdown(minutes = 3)
 ```
 
 
-Find out the current content of the object `area_acres`.
+Find out the current content of the object `distance_miles`.
 
 ## Exercise 1.1 solution
 
@@ -185,7 +185,7 @@ Find out the current content of the object `area_acres`.
 
 :::
 
-Because we have not rerun the code `area_acres <- 2.47*area_hectares` after assigning the new value of `area_hectares` the value of `area_acres` is still `6.175`.
+Because we have not rerun the code `distance_miles <- 0.62*distance_kms` after assigning the new value of `distance_kms` the value of `distance_miles` is still `9.3`.
 
 ## Exercise 1.2
 
@@ -199,9 +199,9 @@ Because we have not rerun the code `area_acres <- 2.47*area_hectares` after assi
 countdown(minutes = 5)
 ```
 
-Create two variables `r_length` and `r_width` and assign them values.
-Create a third variable `r_area` and give it a value based on the current values of `r_length` and `r_width.`
-Show that changing the values of either `r_length` or `r_width` does not affect the value of `r_area.`
+Create two variables `income` and `expenses` and assign them values.
+Create a third variable `profit` and give it a value based on the current values of `income` and `expenses`
+Show that changing the values of either `income` or `expenses` does not affect the value of `profit`
 
 
 ## Exercise 1.2 solution
@@ -214,17 +214,17 @@ Show that changing the values of either `r_length` or `r_width` does not affect 
 #| echo: true
 #| eval: true
 
-r_length <- 2.5
-r_width <- 3.2
-r_area <- r_length * r_width
-r_area
+income <- 100
+expenses <- 90
+profit <- income - expenses
+profit
 
-# change the values of r_length and r_width
-r_length <- 7.0
-r_width <- 6.5
+# change the values of `income` and `expenses`
+income <- 80
+expenses <- 100
 
-# the value of r_area isn't changed
-r_area
+# the value of `profit` hasn't changed
+profit
 
 ```
 
