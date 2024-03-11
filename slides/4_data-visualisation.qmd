@@ -1,0 +1,363 @@
+---
+title: "Data visualisation with ggplot2"
+author: "Eirini Zormpa"
+institute: "The RSA"
+title-slide-attributes:
+    data-background-image: https://images.unsplash.com/photo-1655634535242-b056d585dfd9?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    data-background-opacity: "0.5"
+format:
+  revealjs:
+    theme: [moon, custom.scss]
+    slide-number: true
+from: markdown+emoji
+---
+
+# Data visualisation with `ggplot2`
+
+## Learning objectives
+
+- Produce scatter plots, boxplots, and time-series plots
+- Set universal plot settings
+- Describe what faceting is and apply faceting
+- Modify the aesthetics of an existing `ggplot` plot (including axis labels and color)
+- Build complex and customised plots from data in a data frame
+
+## Why `ggplot2`?
+
+```{=html}
+<iframe width="780" height="500" src="https://r-graph-gallery.com/all-graphs.html" title="R Graph Gallery"></iframe>
+```
+
+::: aside
+[The R Graph Gallery](https://r-graph-gallery.com/all-graphs.html)
+:::
+
+## `ggplot2`
+<p style="text-align: center;">![](https://raw.githubusercontent.com/tidyverse/ggplot2/master/pkgdown/favicon/apple-touch-icon-120x120.png){width="25%" height="25%"}</p>
+
+
+[**ggplot2**](https://ggplot2.tidyverse.org/) is a package (included in the `tidyverse`) for creating highly customisable plots that are built step-by-step by adding layers.
+
+The separation of a plot into layers allows a high degree of flexibility with minimal effort.
+
+## `ggplot2` layers
+
+:::: {.columns}
+::: {.column width="65%"}
+
+![](https://raw.githubusercontent.com/allisonhorst/stats-illustrations/master/rstats-artwork/ggplot2_masterpiece.png){fig-alt="A fuzzy monster in a beret and scarf, critiquing their own column graph on a canvas in front of them while other assistant monsters (also in berets) carry over boxes full of elements that can be used to customize a graph (like themes and geometric shapes). In the background is a wall with framed data visualizations. Stylized text reads “ggplot2: build a data masterpiece."}
+
+:::
+
+::: {.column width="35%"}
+
+<br>
+<br>
+<br>
+<br>
+
+```
+<DATA> %>%
+  ggplot(aes(<MAPPINGS>)) +
+  <GEOM_FUNCTION>() +
+  <CUSTOMISATION>
+```
+:::
+
+::::
+
+::: aside
+Artwork by [Allison Horst](https://allisonhorst.com/), reused under a CC-BY licence.
+:::
+
+# Data visualisation crash-course
+
+## Aesthetics
+
+> Whenever we visualise data, we take data values and convert them in a systematic and logical way into the visual elements that make up the final graphic. [...] All data visualisations map data values into quantifiable features of the resulting graphic. We refer to these features as **aesthetics**.
+
+::: aside
+Quote from Claus Wilke's [*Fundamentals of Data Visualization*](https://clauswilke.com/dataviz).
+:::
+
+### Commonly-used aesthetics
+
+:::: {.columns}
+::: {.column width="50%"}
+- position (*x* and *y* coordinates),
+- colour
+- size
+:::
+
+::: {.column width="50%"}
+- shape
+- line type
+:::
+
+::::
+
+## Find the green dot lvl. :one:
+
+```{r}
+#| echo: false
+
+library(here)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(viridisLite)
+library(hexbin)
+
+census_viz_data <- read_csv(here("data_raw", "synthetic-census-data.csv"),
+                        na = "NULL")
+
+```
+
+
+```{r}
+plot1 <- data.frame(x = rnorm(100, 10, 1),
+                    y = rnorm(100, 10, 1),
+                    z = c(rep("a", 99), "b"))
+plot2 <- data.frame(x = rnorm(100, 10, 1),
+                    y = rnorm(100, 10, 1),
+                    z = c(rep("b", 99), "a"))
+plot3 <- data.frame(x = rnorm(100, 10, 1),
+                    y = rnorm(100, 10, 1),
+                    z = c(rep("a", 33), rep("b", 66), rep("a", 1)),
+                    aa = c(rep("a", 66), rep("b", 34)))
+```
+
+```{r}
+plot1 %>%
+  ggplot(aes(x = x, y = y, colour = z)) +
+  geom_point(size = 2.5) +
+  scale_colour_manual(values=c("tomato", "#7aeb7a")) +
+  labs(x = "", y = "", title = "Colour only, N = 100") +
+  theme(legend.position = "none",
+        plot.title = element_text(size=22),
+        axis.text = element_blank(),
+        axis.ticks = element_blank())
+```
+
+::: aside
+Inspired by Kieran Healy's [*Data Visualization: A practical introduction*](https://socviz.co/).
+:::
+
+## Find the green dot lvl. :two:
+
+```{r}
+plot2 %>%
+  ggplot(aes(x = x, y = y, shape = z)) +
+  geom_point(colour = "#7aeb7a", size = 2.5) +
+  labs(x = "", y = "", title = "Shape only, N = 100") +
+  theme(legend.position = "none",
+        plot.title = element_text(size=22),
+        axis.text = element_blank(),
+        axis.ticks = element_blank())
+```
+
+::: aside
+Inspired by Kieran Healy's [*Data Visualization: A practical introduction*](https://socviz.co/).
+:::
+
+## Find the green dot lvl. :three:
+
+```{r}
+plot3 %>%
+  ggplot(aes(x = x, y = y, shape = z, colour = aa)) +
+  geom_point(size = 2.5) +
+  scale_colour_manual(values=c("tomato", "#7aeb7a")) +
+  labs(x = "", y = "", title = "Colour and Shape, N = 100") +
+  theme(plot.title = element_text(size=22),
+        legend.position = "none",
+        axis.text = element_blank(),
+        axis.ticks = element_blank())
+```
+
+::: aside
+Inspired by Kieran Healy's [*Data Visualization: A practical introduction*](https://socviz.co/).
+:::
+
+## Colour considerations
+
+In the previous game, people with the most common type of colour-blindness would have struggled to perceive the colour distinction :scream:
+
+![](https://upload.wikimedia.org/wikipedia/commons/a/af/Color_blindness.png){fig-alt="A comparison of the visible color spectrum in common types of color blindness. For people with Deuteranomaly, affecting 2.7% of the population, red and green are difficult to distinguish from one another."}
+
+## Viridis palettes
+
+
+:::: {.columns}
+::: {.column width="50%"}
+
+Are colourblind-friendly...
+
+```{r}
+#| fig.dim = c(5, 2)
+
+n = 200
+
+image(
+1:n, 1, as.matrix(1:n),
+col = viridis(n),
+xlab = "",
+ylab = "",
+xaxt = "n",
+yaxt = "n"
+)
+title(main = "viridis")
+```
+
+```{r}
+#| fig.dim = c(5, 2)
+
+image(
+1:n, 1, as.matrix(1:n),
+col = inferno(n),
+xlab = "",
+ylab = "",
+xaxt = "n",
+yaxt = "n"
+)
+title(main = "inferno")
+```
+:::
+
+::: {.column width="50%"}
+
+... and they're very pretty :heart_eyes::sparkles:
+
+```{r}
+#| fig.dim = c(4.75, 4.75)
+dat <- data.frame(x = rnorm(10000), y = rnorm(10000))
+ggplot(dat, aes(x = x, y = y)) +
+  geom_hex() + coord_fixed() +
+  scale_fill_gradientn(colours = viridis(256, option = "D")) +
+  labs(x = "", y = "")
+```
+
+
+:::
+
+::::
+
+::: aside
+from the [`viridisLite` site](https://sjmgarnier.github.io/viridisLite/reference/viridis.html) by Simon Garnier
+:::
+
+# Data visualisation exercises
+
+## Exercise 4.1
+
+:alarm_clock: **5 mins**
+
+```{r}
+countdown::countdown(minutes = 5)
+```
+
+Use what you just learned to create a scatter plot of `cars` by `household_size` with the `dwelling_type` showing in different colours.
+
+## Exercise 4.1 solution
+
+```{r}
+#| echo: true
+#| eval: true
+census_viz_data %>% 
+  ggplot(aes(x = household_size, y = cars)) +
+  geom_jitter(aes(colour = dwelling_type),
+              alpha = 0.3,
+              width = 0.3,
+              height = 0.3)
+```
+
+## Exercise 4.1 solution (viridisLite)
+```{r}
+#| echo: true
+#| eval: true
+
+census_viz_data %>% 
+  ggplot(aes(x = household_size, y = cars)) +
+  geom_jitter(aes(colour = dwelling_type),
+              alpha = 0.3,
+              width = 0.3,
+              height = 0.3) +
+  scale_colour_viridis_d()
+```
+
+
+
+## Exercise 4.2
+
+:alarm_clock: **10 mins**
+
+```{r}
+countdown::countdown(minutes = 10)
+```
+
+Replace the box plot with a violin plot; see `geom_violin()`.
+
+## Exercise 4.2 solution
+
+```{r}
+#| echo: true
+#| eval: true
+
+census_viz_data %>% 
+  ggplot(aes(x = region, y =  bedrooms)) +
+  geom_violin(alpha = 0) +
+  geom_jitter(alpha = 0.3,
+              colour = "tomato",
+              width = 0.3,
+              height = 0.3)
+
+```
+
+
+# Exercise 4.3
+
+:alarm_clock: **5 mins**
+
+```{r}
+countdown::countdown(minutes = 5)
+```
+
+Build the previous plot again and experiment with at least two themes.
+
+Which do you like best?
+
+:::: {.columns}
+::: {.column width="50%"}
+
+`theme_minimal`  
+`theme_void`  
+`theme_classic`  
+:::
+
+::: {.column width="50%"}
+`theme_dark`  
+`theme_grey`  
+`theme_light`
+:::
+
+::::
+
+## Exercise 4.3: My preference
+
+I prefer the white background of `theme_minimal` and I like that it retains the major grid, though that's slightly controversial.
+
+I also like that it gets rid of the black box around the plot.
+
+## This is just the beginning!
+
+`ggplot2` and compatible packages give you a huge amount of flexibility to create *exactly* the graph you want!
+
+You can explore packages that let you play around with:
+
+- beautiful palettes (e.g. `ghibli`, `wesanderson`),
+- new themes (e.g. `hrbrthemes`)
+- additional fonts (e.g. `extrafont`)
+- animated graphs (e.g. `gganimate`)
+- and so much more!
+
+# Thank you for your attention :sparkles:
+
