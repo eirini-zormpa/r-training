@@ -1,0 +1,148 @@
+---
+title: "Data wrangling with tidyr and dplyr"
+author: "Eirini Zormpa"
+institute: "The RSA"
+title-slide-attributes:
+    data-background-image: https://images.unsplash.com/photo-1692606944142-b0b4cde990e8?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    data-background-opacity: "0.7"
+format:
+  revealjs:
+    theme: [moon, custom.scss]
+    slide-number: true
+from: markdown+emoji
+---
+
+```{r}
+#| echo: false
+
+library(here)
+library(readr)
+library(countdown)
+
+library(tidyr)
+library(dplyr)
+library(lubridate)
+```
+
+## Last time you learned how to:
+
+- :white_check_mark: Read data into R
+- :white_check_mark: Understand and manipulate `tibbles`
+- :white_check_mark: Understand and manipulate `factors`
+- :white_check_mark: Alternate between date formats
+
+# Data wrangling with `dplyr` and `tidyr`
+
+## Learning objectives
+
+- Subset columns or rows with `select` or `filter` and create new columns with `mutate`.
+- Link the output of one function to the input of another function with the ‘pipe’ operator `%>%`.
+- Use `summarise`, `group_by`, and `count` to split a data frame into groups of observations, apply summary statistics for each group, and then combine the results.
+- Export a dataframe to a .csv and .tsv file.
+
+## Exercise 3.1
+
+:alarm_clock: **5 mins**
+
+```{r}
+countdown::countdown(minutes = 5)
+```
+
+
+Using pipes, subset `census_data` to include responses from participants based in London and retain only the columns `household_size`, `dwelling_type`, and `cars`
+
+
+## Exercise 3.1 solution
+
+```{r}
+#| echo: true
+#| eval: false
+
+census_data %>%
+  filter(region == "London") %>%
+  select(household_size, dwelling_type, cars)
+
+```
+
+. . .
+
+Note that if you `select` before you `filter`, your code won't run.
+That's because you're not retaining the variable that you use in your filtering.
+When piping, **order matters**!
+
+## Exercise 3.2
+
+:alarm_clock: **10 mins**
+
+```{r}
+countdown::countdown(minutes = 10)
+```
+
+Create a new data frame from `census_data` that meets the following criteria:
+
+- contains only the `ID` column and a new column called `interview_date_dmy` containing the interview data in the day-month-year format.
+- In this `interview_date_dmy` column, there are no `NA`s and
+- All values in the `length_cm` are before November 2011.
+
+## Exercise 3.2 solution
+
+```{r}
+#| echo: true
+#| eval: false
+
+census_data %>%
+  filter(!is.na(interview_date)) %>%
+  mutate(interview_date_dmy = ymd(interview_date)) %>%
+  filter(interview_date_dmy < "01-11-2011") %>%
+  select(ID, interview_date_dmy)
+
+```
+
+
+## Exercise 3.3
+
+:alarm_clock: **10 mins**
+
+```{r}
+countdown::countdown(minutes = 10)
+```
+
+1. How many respondents lived in each `dwelling_type`?
+2. Use `group_by()` and `summarise()` to find the median, min, and max number of bedrooms for each `dwelling_type`. Also add the number of observations (hint: see `?n`)
+3. What was the dwelling type with the most cars for each region?
+
+
+## Exercise 3.3 solution
+
+```{r}
+#| echo: true
+#| eval: false
+
+1.
+census_data %>%
+    count(dwelling_type)
+
+2. 
+census_data %>%
+    group_by(dwelling_type) %>%
+    summarise(
+        median_bedrooms = median(bedrooms),
+        min_bedrooms = min(bedrooms),
+        max_bedrooms = max(bedrooms),
+        n = n()
+    )
+
+3.
+census_data %>%
+  filter(!is.na(cars)) %>%
+  group_by(region) %>%
+  filter(cars == max(cars))
+
+```
+
+## Summary
+
+- :white_check_mark: Subset columns or rows with `select` or `filter` and create new columns with `mutate`.
+- :white_check_mark: Link the output of one function to the input of another function with the ‘pipe’ operator `%>%`.
+- :white_check_mark: Use `summarise`, `group_by`, and `count` to split a data frame into groups of observations, apply summary statistics for each group, and then combine the results.
+- :white_check_mark: Export a dataframe to a `.csv` and `.tsv` file.
