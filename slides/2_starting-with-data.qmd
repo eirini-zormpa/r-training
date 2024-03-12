@@ -181,6 +181,11 @@ Their sole purpose is to be used in training.
 
 ## Importing data: Folders
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
 1. Double click on the R Project you created for the workshop to open RStudio.
 2. Check that the files you see in your `Files` tab are the right ones (you should only see the `scripts` folder and the `.Rproj` file)
 3. Go to the console and type the following commands
@@ -199,7 +204,11 @@ dir.create("scripts")
 
 ## Importing data: Download
 
-Then we need to 1) download the data from Zenodo and 2) save it in the `data_raw` folder we just created it.
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+Then we need to 1) download the data and 2) save it in the `data_raw` folder we just created it.
 
 We can do both in one go in R by typing the following command in the console:
 
@@ -217,6 +226,10 @@ After you have run this command, open the `data_raw` folder and check that there
 
 ## Exercise 2.1
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 :alarm_clock: **10 mins**
 
 ```{r}
@@ -231,6 +244,10 @@ countdown(minutes = 10)
 - Use the `-` notation to reproduce the behavior of `head(census_data)` (show rows 1-6)
 
 ## Exercise 2.1 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ```{r}
 #| echo: false
@@ -257,6 +274,10 @@ census_head <- census_data[-(7:n_rows), ]
 
 ## Factors
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 R has a special data class, called `factor`, to deal with *categorical data*. Factors:
 
 - are stored as **integers** associated with labels, though they look like character vectors
@@ -273,6 +294,10 @@ R has a special data class, called `factor`, to deal with *categorical data*. Fa
 
 ## Exercise 2.2
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 :alarm_clock: **5 mins**
 
 ```{r}
@@ -288,6 +313,10 @@ countdown(minutes = 5)
 
 ## Exercise 2.2 solution
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 ```{r}
 #| echo: true
 #| eval: false
@@ -301,6 +330,10 @@ summary(census_data)
 
 ## Exercise 2.3
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 :alarm_clock: **5 mins**
 
 ```{r}
@@ -311,6 +344,10 @@ countdown(minutes = 5)
 2. Recreate the barplot such that “Unknown” is last.
 
 ## Exercise 2.3 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ```{r}
 #| echo: true
@@ -329,6 +366,10 @@ plot(census_data$central_heating)
 
 ## Dates
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 To avoid ambiguity, use the [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339) standard: **YYYYMMDD** (or YYYY-MM-DD).
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Date_format_by_country_revised.svg/1600px-Date_format_by_country_revised.svg.png){width=810 height=450}
@@ -339,6 +380,10 @@ This [image](https://en.m.wikipedia.org/wiki/File:Date_format_by_country_revised
 
 
 ## Summary
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 - :white_check_mark: Read data into R.
 - :white_check_mark: Understand and manipulate `data frames`.

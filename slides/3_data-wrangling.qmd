@@ -26,12 +26,20 @@ library(lubridate)
 
 ## Last time you learned how to:
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 - :white_check_mark: Read data into R
 - :white_check_mark: Understand and manipulate `tibbles`
 - :white_check_mark: Understand and manipulate `factors`
 - :white_check_mark: Alternate between date formats
 
 # Data wrangling with `dplyr` and `tidyr`
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ## Learning objectives
 
@@ -41,6 +49,10 @@ library(lubridate)
 - Export a dataframe to a .csv and .tsv file.
 
 ## Exercise 3.1
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 :alarm_clock: **5 mins**
 
@@ -53,6 +65,10 @@ Using pipes, subset `census_data` to include responses from participants based i
 
 
 ## Exercise 3.1 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ```{r}
 #| echo: true
@@ -72,6 +88,10 @@ When piping, **order matters**!
 
 ## Exercise 3.2
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 :alarm_clock: **10 mins**
 
 ```{r}
@@ -85,6 +105,10 @@ Create a new data frame from `census_data` that meets the following criteria:
 - All values in the `length_cm` are before November 2011.
 
 ## Exercise 3.2 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ```{r}
 #| echo: true
@@ -101,6 +125,10 @@ census_data %>%
 
 ## Exercise 3.3
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 :alarm_clock: **10 mins**
 
 ```{r}
@@ -113,6 +141,10 @@ countdown::countdown(minutes = 10)
 
 
 ## Exercise 3.3 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ```{r}
 #| echo: true
@@ -141,6 +173,10 @@ census_data %>%
 ```
 
 ## Summary
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 - :white_check_mark: Subset columns or rows with `select` or `filter` and create new columns with `mutate`.
 - :white_check_mark: Link the output of one function to the input of another function with the ‘pipe’ operator `%>%`.

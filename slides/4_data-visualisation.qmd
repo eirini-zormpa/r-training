@@ -14,7 +14,12 @@ from: markdown+emoji
 
 # Data visualisation with `ggplot2`
 
+
 ## Learning objectives
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 - Produce scatter plots, boxplots, and time-series plots
 - Set universal plot settings
@@ -23,6 +28,10 @@ from: markdown+emoji
 - Build complex and customised plots from data in a data frame
 
 ## Why `ggplot2`?
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ```{=html}
 <iframe width="780" height="500" src="https://r-graph-gallery.com/all-graphs.html" title="R Graph Gallery"></iframe>
@@ -33,6 +42,11 @@ from: markdown+emoji
 :::
 
 ## `ggplot2`
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 <p style="text-align: center;">![](https://raw.githubusercontent.com/tidyverse/ggplot2/master/pkgdown/favicon/apple-touch-icon-120x120.png){width="25%" height="25%"}</p>
 
 
@@ -41,6 +55,10 @@ from: markdown+emoji
 The separation of a plot into layers allows a high degree of flexibility with minimal effort.
 
 ## `ggplot2` layers
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 :::: {.columns}
 ::: {.column width="65%"}
@@ -74,6 +92,10 @@ Artwork by [Allison Horst](https://allisonhorst.com/), reused under a CC-BY lice
 
 ## Aesthetics
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 > Whenever we visualise data, we take data values and convert them in a systematic and logical way into the visual elements that make up the final graphic. [...] All data visualisations map data values into quantifiable features of the resulting graphic. We refer to these features as **aesthetics**.
 
 ::: aside
@@ -81,6 +103,7 @@ Quote from Claus Wilke's [*Fundamentals of Data Visualization*](https://clauswil
 :::
 
 ### Commonly-used aesthetics
+
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -97,6 +120,10 @@ Quote from Claus Wilke's [*Fundamentals of Data Visualization*](https://clauswil
 ::::
 
 ## Find the green dot lvl. :one:
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ```{r}
 #| echo: false
@@ -145,6 +172,10 @@ Inspired by Kieran Healy's [*Data Visualization: A practical introduction*](http
 
 ## Find the green dot lvl. :two:
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 ```{r}
 plot2 %>%
   ggplot(aes(x = x, y = y, shape = z)) +
@@ -161,6 +192,10 @@ Inspired by Kieran Healy's [*Data Visualization: A practical introduction*](http
 :::
 
 ## Find the green dot lvl. :three:
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ```{r}
 plot3 %>%
@@ -180,11 +215,19 @@ Inspired by Kieran Healy's [*Data Visualization: A practical introduction*](http
 
 ## Colour considerations
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 In the previous game, people with the most common type of colour-blindness would have struggled to perceive the colour distinction :scream:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/af/Color_blindness.png){fig-alt="A comparison of the visible color spectrum in common types of color blindness. For people with Deuteranomaly, affecting 2.7% of the population, red and green are difficult to distinguish from one another."}
 
 ## Viridis palettes
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 
 :::: {.columns}
@@ -249,6 +292,10 @@ from the [`viridisLite` site](https://sjmgarnier.github.io/viridisLite/reference
 
 ## Exercise 4.1
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 :alarm_clock: **5 mins**
 
 ```{r}
@@ -258,6 +305,10 @@ countdown::countdown(minutes = 5)
 Use what you just learned to create a scatter plot of `cars` by `household_size` with the `dwelling_type` showing in different colours.
 
 ## Exercise 4.1 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ```{r}
 #| echo: true
@@ -271,6 +322,11 @@ census_viz_data %>%
 ```
 
 ## Exercise 4.1 solution (viridisLite)
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 ```{r}
 #| echo: true
 #| eval: true
@@ -288,6 +344,10 @@ census_viz_data %>%
 
 ## Exercise 4.2
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 :alarm_clock: **10 mins**
 
 ```{r}
@@ -297,6 +357,10 @@ countdown::countdown(minutes = 10)
 Replace the box plot with a violin plot; see `geom_violin()`.
 
 ## Exercise 4.2 solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 ```{r}
 #| echo: true
@@ -314,6 +378,10 @@ census_viz_data %>%
 
 
 # Exercise 4.3
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 :alarm_clock: **5 mins**
 
@@ -343,11 +411,19 @@ Which do you like best?
 
 ## Exercise 4.3: My preference
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
 I prefer the white background of `theme_minimal` and I like that it retains the major grid, though that's slightly controversial.
 
 I also like that it gets rid of the black box around the plot.
 
 ## This is just the beginning!
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 `ggplot2` and compatible packages give you a huge amount of flexibility to create *exactly* the graph you want!
 
