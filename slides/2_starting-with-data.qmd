@@ -118,24 +118,14 @@ lmage from [Tidy Data for reproducibility, efficiency, and collaboration](https:
 
 #### Comma-delimited (.csv)
 
-::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
-
-:::
-
-
 - :thumbsup: commonly used
 - :thumbsdown: annoying when data itself contains commas
 
-::::
+:::
 
 ::: {.column width="50%"}
 
 #### Tab-delimited (.tsv)
-
-::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
-
-:::
-
 
 - :thumbsup: no confusion when data contains commas or semicolons
 - :thumbsdown: not very commonly used (at least not yet)

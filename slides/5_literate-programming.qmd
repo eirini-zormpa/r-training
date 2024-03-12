@@ -1,0 +1,205 @@
+---
+title: "Literate programming with Quarto"
+author: "Eirini Zormpa"
+institute: "The RSA"
+title-slide-attributes:
+    data-background-image: https://images.unsplash.com/photo-1664448021770-7e4dfc780bee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    data-background-opacity: "0.7"
+format:
+  revealjs:
+    theme: [moon, custom.scss]
+    slide-number: true
+from: markdown+emoji
+---
+
+## Last time you learned how to:
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+- :white_check_mark: Produce scatter plots, boxplots, and time-series plots
+- :white_check_mark: Set universal plot settings
+- :white_check_mark: Describe what faceting is and apply faceting
+- :white_check_mark: Modify the aesthetics of an existing `ggplot` plot (including axis labels and color)
+- :white_check_mark: Build complex and customised plots from data in a data frame
+
+
+## Learning objectives
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+:::
+
+- :white_check_mark: Describe what literate programming is and explain why it is useful
+- :white_check_mark: Create a `.qmd` document containing R code, text, and plots
+- :white_check_mark: Understand basic syntax of Markdown and Quarto
+- :white_check_mark: Customise code chunks to control formatting
+
+## Why literate programming?
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+:::
+
+With literate programming, we can combine (nicely formatted!) narrative text with code, and code output all in the same document.
+
+<br>
+
+. . .
+
+`Quarto` is one example of such a document, but you may have also heard of `Jupyter` notebooks, which do something similar, or `R Markdown`, the predecessor of Quarto.
+
+<br>
+
+. . .
+
+I love Quarto documents because they are reproducible and extremely versatile.
+
+## Example of a Quarto document
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Source
+
+![](images/quarto-source.png)
+
+:::
+
+::: {.column width="50%"}
+
+### Output
+
+![](images/quarto-output.png)
+
+:::
+
+::::
+
+## Why Quarto: reproducibility :recycle:
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+:::
+
+By combining text, code, and code output in the same document:
+
+- it's easier to **document** your data cleaning and analysis, helping you and others understand your work
+
+. . . 
+
+- it's easier to **avoid copy-paste errors**
+
+. . . 
+
+- it's easier to **update your manuscript** if you collect more data or change your data cleaning 
+
+. . . 
+
+- because `.qmd` files are plain text files, they are compatible with version control systems, such as `git`. 
+
+
+## Why Quarto: output versatility :page_facing_up: :book: :bar_chart: 
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+:::
+
+![](https://raw.githubusercontent.com/allisonhorst/stats-illustrations/main/julie-mine-quarto-keynote/quarto_schematic.png)
+
+
+::: aside
+Image credit: Allison Horst, [Çetinkaya-Rundel & Lowndes Quarto Keynote](https://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote)
+:::
+
+## Why Quarto: language versatility :snake: :pirate_flag:
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+![](https://raw.githubusercontent.com/allisonhorst/stats-illustrations/main/julie-mine-quarto-keynote/quarto_schematic.png)
+
+::: aside
+Image credit: Artwork by Allison Horst, [Çetinkaya-Rundel & Lowndes Quarto Keynote](https://allisonhorst.com/cetinkaya-rundel-lowndes-quarto-keynote). Reused under a CC-BY licence.
+:::
+
+## Anatomy of a Quarto document
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Source
+
+![](images/quarto-source.png)
+
+:::
+
+::: {.column width="50%"}
+
+### Output
+
+![](images/quarto-output.png)
+
+:::
+
+::::
+
+## `here()` for relative paths
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+![](https://raw.githubusercontent.com/allisonhorst/stats-illustrations/main/rstats-artwork/here.png)
+
+::: aside
+Image credit: Artwork by [Allison Horst](https://allisonhorst.com/), reused under a CC-BY licence.
+:::
+
+## Customising chunk output
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+## Exercise
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+## Writing papers in Quarto
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+
+# Thank you for your attention :sparkles:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

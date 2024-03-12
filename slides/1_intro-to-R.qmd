@@ -381,11 +381,11 @@ So far you have learned how to:
 
 When we say R is a language, we mean just that: We need to learn **a new way of communicating** that lets us talk to the R software. 
 
-<br>
+. . .
 
 Software isn't as smart as humans and have no tolerance for errors: if we don't tell it what we do just the way it wants, it won't work. 
 
-<br>
+. . .
 
 Learning how to speak the software's language takes time and practice, but we're here to help you :muscle::sparkles:
 
