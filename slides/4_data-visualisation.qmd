@@ -12,8 +12,16 @@ format:
 from: markdown+emoji
 ---
 
-# Data visualisation with `ggplot2`
+## Last time you learned how to:
 
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+- :white_check_mark: Subset columns or rows with `select` or `filter` and create new columns with `mutate`.
+- :white_check_mark: Link the output of one function to the input of another function with the ‘pipe’ operator `%>%`.
+- :white_check_mark: Use `summarise`, `group_by`, and `count` to split a data frame into groups of observations, apply summary statistics for each group, and then combine the results.
+- :white_check_mark: Export a dataframe to a .csv and .tsv file.
 
 ## Learning objectives
 
