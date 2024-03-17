@@ -12,6 +12,10 @@ format:
 from: markdown+emoji
 ---
 
+# Software installation
+
+If you weren't able to install software, let one of the IT team members know
+
 ## Introductions :wave:
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
@@ -42,7 +46,9 @@ library(countdown)
 - **PhD Student** @ Max Planck Institute for Psycholinguistics 
   - Primary data from human participants :speech_balloon: :eyes: :brain:
 
+# What will **you** use R for?
 
+Tell us in the chat!
 
 ## Why R?
 
@@ -65,7 +71,15 @@ It is **free** and **open source**. :x: :moneybag: = :tada:
 
 - :oyster: **working in any discipline**: because R is open source, anyone can contribute code to extend its functionality (currently 10,000+ packages).
 
+. . .
+
+- :heartpulse: **supportive community**
+
 ## R in the wild
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
 
 :::: {.columns}
 
@@ -87,29 +101,37 @@ It is **free** and **open source**. :x: :moneybag: = :tada:
 ::: aside
 Image credits: [Cedrik Scherer](https://www.cedricscherer.com/) and [George Karamanis](https://github.com/gkaramanis) (Tidy Tuesday submissions)
 :::
-## Why R Studio?
+
+## Why this workshop series
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
 
 :::
 
-**RStudio** is an Integrated Development Environment with a **free and open-source version**, which makes working with R much easier. 
+- Teaches you all the basics for getting started with working with data
 
 . . .
 
-- :computer: it makes it easier to develop code by allowing us to navigate computer files and inspect data and variables. We will use R entirely through RStudio.
+- Is based on open educational materials that have been refined over many iterations - credit to The Carpentries :blue_heart:
 
 . . .
 
-- :recycle: it supports reproducibility through features like `projects`.
+- Uses a live-coding format, which is excellent for beginners
 
 . . .
 
-- :card_index: it provides a Graphical User Interface to work with `git`.
+- We're here to help :raised_hands:
 
-::: aside
-*RStudio* used to also be the name of the company that develops RStudio but they rebranded as *Posit* a couple of years ago.
+## Getting help
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
 :::
+
+There are helpers in person and online. If your code doesn't work, they're here to help you :muscle::
+
+- If you're attending in person, raise your hand and wait until someone comes over.
+- If you're attending online, **paste the code you run and the error message in the chat**. Don't just say that something didn't work for you, as we won't have enough information to help you.
 
 ## Learning objectives
 
