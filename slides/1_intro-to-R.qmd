@@ -161,10 +161,10 @@ Which one looks more reproducible?:
 #| eval: false
 
 # option 1: absolute path
-interviews <- read_csv("/Users/Eirini.zormpa/Documents/rsa-r-training/data_raw/synthetic-census-data.csv")
+census_data <- read_csv("/Users/Eirini.zormpa/Documents/rsa-r-training/data_raw/synthetic-census-data.csv")
 
 # option 2: relative path
-ceramics_data <- read_csv("data_raw/synthetic-census-data.csv")
+census_data <- read_csv("data_raw/synthetic-census-data.csv")
 ```
 
 . . .
