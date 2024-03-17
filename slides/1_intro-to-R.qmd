@@ -284,9 +284,6 @@ profit
 
 - Other vector types are: *logical* for `TRUE` and `FALSE`, *integer* for integer numbers and two others we won't discuss (*complex* and *raw*).
 
-. . .
-
-- The other data structure, other than vectors, we'll talk about today is the *tibble*.
 
 ## Exercise 1.2
 
