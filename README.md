@@ -1,7 +1,7 @@
 # About
-This repository contains the materials used to teach R to employees of the RSA.
+This repository contains materials used to teach R to employees of the RSA.
+They were used in a hands-on live-coding workshop.
 
-This is a hands-on live-conding workshop.
 The links to the slides will be added below:
 
 - Slides for Session 1: Introduction to R
@@ -9,6 +9,8 @@ The links to the slides will be added below:
 - Slides for Session 3: Data wrangling with `tidyr` and `dplyr`
 - Slides for Session 4: Data visualisation with `ggplot2`
 - Slides for Session 5: Literate programming with Quarto
+
+The scripts created during the session can be found in the `demos` folder.
 
 These materials were based on the [Data Carpentry R for Social Scientists lessons](https://datacarpentry.org/r-socialsci/index.html).
 
