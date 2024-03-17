@@ -27,22 +27,22 @@ library(countdown)
 ```
 
 
-![](https://www.thersa.org/globalassets/_foundation/new-site-blocks-and-images/staff-page/2022-staff-images/eirini-zormpa.jpg){.absolute top=85 right=50 width="350" height="350"}
-
-::: {.column width="60%"}
 **Eirini Zormpa**, Quantitative Researcher
+
+- Secondary data from the ONS :money_with_wings: :house: :leaves:
 
 <br>
 
-Previously:
+. . .
 
-- **PhD Student** @ Max Planck Institute for Psycholinguistics :brain:
-- **Trainer on Research Data Management & Open Science** @ Delft University of Technology :computer:
-- **Research Community Manager** @ The Alan Turing Institute :robot:
-:::
+### Previously:
+
+- **Research infrastructure** @ TU Delft & The Alan Turing Institute
+  - Participation data in courses and other events :mortar_board:
+- **PhD Student** @ Max Planck Institute for Psycholinguistics 
+  - Primary data from human participants :speech_balloon: :eyes: :brain:
 
 
-# Introduction to R
 
 ## Why R?
 
@@ -55,16 +55,38 @@ It is **free** and **open source**. :x: :moneybag: = :tada:
 
 . . .
 
-- :recycle: **reproducibility**: R is not point-and-click, so when repeating an analysis, you don't have to remember what you pressed when. It's all written down for you in a script!
+- :recycle: **reproducibility**: because R is a programming language (not point-and-click), you don't have to remember what you pressed when to repeat something. It's all written down for you in a script!
 
 . . .
 
-- :floppy_disk: **working with data**: R was created by statisticians for statistics. It has useful features for data analysis and allows you to make beautiful graphics.
+- :floppy_disk: **working with data**: R was created by statisticians for statistics and data work is where it shines
 
 . . .
 
-- :milky_way: **working in any discipline**: R is open source, meaning anyone can contribute code to extend its functionality (currently in 10,000+ packages).
+- :oyster: **working in any discipline**: because R is open source, anyone can contribute code to extend its functionality (currently 10,000+ packages).
 
+## R in the wild
+
+:::: {.columns}
+
+::: {.column width="60%"}
+
+
+![](https://mir-s3-cdn-cf.behance.net/project_modules/fs/44a415100683383.631e30537753e.png)
+
+:::
+
+::: {.column width="40%"}
+
+
+![](https://raw.githubusercontent.com/gkaramanis/tidytuesday/master/2019/2019-week-23/ramen.png)
+:::
+
+::::
+
+::: aside
+Image credits: [Cedrik Scherer](https://www.cedricscherer.com/) and [George Karamanis](https://github.com/gkaramanis) (Tidy Tuesday submissions)
+:::
 ## Why R Studio?
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
@@ -79,7 +101,7 @@ It is **free** and **open source**. :x: :moneybag: = :tada:
 
 . . .
 
-- :open_file_folder: it supports reproducibility through features like `projects`.
+- :recycle: it supports reproducibility through features like `projects`.
 
 . . .
 
@@ -96,10 +118,9 @@ It is **free** and **open source**. :x: :moneybag: = :tada:
 :::
 
 - Navigate the RStudio Graphical User Interface (GUI).
-- Install `packages` to access additional functionality.
 - Perform simple arithmetic calculations in R.
-- Understand programming terms, like `objects`, `functions`, `arguments` and `vectors`.
-- Learn basic ways to work with missing data.
+- Understand basic programming terms, like `objects` and `functions`.
+
 
 ## R Projects: File paths :recycle:
 
@@ -118,10 +139,10 @@ Which one looks more reproducible?:
 #| eval: false
 
 # option 1: absolute path
-interviews <- read_csv("/Users/Eirini.zormpa/Documents/rsa-r-training/data_raw/SAFI_clean.csv")
+interviews <- read_csv("/Users/Eirini.zormpa/Documents/rsa-r-training/data_raw/synthetic-census-data.csv")
 
 # option 2: relative path
-ceramics_data <- read_csv("data_raw/SAFI_clean.csv")
+ceramics_data <- read_csv("data_raw/synthetic-census-data.csv")
 ```
 
 . . .
@@ -170,29 +191,6 @@ flowchart TB
 
 :::
 
-:alarm_clock: **3 mins**
-
-```{r}
-countdown(minutes = 3)
-```
-
-
-Find out the current content of the object `distance_miles`.
-
-## Exercise 1.1 solution
-
-::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
-
-:::
-
-Because we have not rerun the code `distance_miles <- 0.62*distance_kms` after assigning the new value of `distance_kms` the value of `distance_miles` is still `9.3`.
-
-## Exercise 1.2
-
-::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
-
-:::
-
 :alarm_clock: **5 mins**
 
 ```{r}
@@ -204,7 +202,7 @@ Create a third variable `profit` and give it a value based on the current values
 Show that changing the values of either `income` or `expenses` does not affect the value of `profit`
 
 
-## Exercise 1.2 solution
+## Exercise 1.1 solution
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
 
@@ -268,7 +266,7 @@ profit
 
 - The other data structure, other than vectors, we'll talk about today is the *tibble*.
 
-## Exercise 1.3
+## Exercise 1.2
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
 
@@ -293,7 +291,7 @@ tricky <- c(1, 2, 3, "4")
 
 **Hint**: use `typeof()` to check the data type of your objects
 
-## Exercise 1.3 solution
+## Exercise 1.2 solution
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
 
@@ -310,7 +308,7 @@ typeof(tricky)
 
 Vectors can be of only **one data type**. R tries to convert (coerce) the content of this vector to find a "common denominator" that doesn’t lose any information.
 
-## Exercise 1.4
+## Exercise 1.3
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
 
@@ -325,14 +323,14 @@ countdown(minutes = 10)
 
 ```{r}
 #| echo: true
-rooms <- c(1, 2, 1, 1, NA, 3, 1, 3, 2, 1, 1, 8, 3, 1, NA, 1)
+bedrooms <- c(1, 2, 1, 1, NA, 3, 1, 3, 2, 1, 1, 8, 3, 1, NA, 1)
 ```
 
 1. Using the above vector, create a new vector with the `NA`s removed.
-2. Use the function `median()` to calculate the median of the `rooms` vector.
-3. How many households have more than two rooms?
+2. Use the function `median()` to calculate the median of the `bedrooms` vector.
+3. How many households have more than two bedrooms?
 
-## Exercise 1.4 solution
+## Exercise 1.3 solution
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
 
@@ -342,16 +340,16 @@ rooms <- c(1, 2, 1, 1, NA, 3, 1, 3, 2, 1, 1, 8, 3, 1, NA, 1)
 #| echo: true
 
 # 1. 
-rooms_no_na <- rooms[!is.na(rooms)]
+bedrooms_no_na <- bedrooms[!is.na(bedrooms)]
 # or
-rooms_no_na <- na.omit(rooms)
+bedrooms_no_na <- na.omit(bedrooms)
 
 # 2.
-median(rooms, na.rm = TRUE)
+median(bedrooms, na.rm = TRUE)
 
 # 3.
-rooms_above_2 <- rooms_no_na[rooms_no_na > 2]
-length(rooms_above_2)
+bedrooms_above_2 <- bedrooms_no_na[bedrooms_no_na > 2]
+length(bedrooms_above_2)
 ```
 
 
@@ -363,15 +361,12 @@ length(rooms_above_2)
 
 So far you have learned how to:
 
-- :white_check_mark: Interact with the RStudio GUI, 
-- :white_check_mark: Set up projects, 
-- :white_check_mark: Create files from RStudio, 
-- :white_check_mark: Assign values to objects, 
-- :white_check_mark: Use functions, 
-- :white_check_mark: Create and subset vectors, 
-- :white_check_mark: Work with missing data 
-
-
+- :white_check_mark: Navigate the RStudio Graphical User Interface (GUI).
+- :white_check_mark: Create files and R projects.
+- :white_check_mark: Perform simple arithmetic calculations in R.
+- :white_check_mark: Create `objects` and `vectors`.
+- :white_check_mark: Use functions.
+- :white_check_mark: Work with missing data.
 
 ## Programming note
 

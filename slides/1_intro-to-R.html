@@ -414,22 +414,24 @@ Eirini Zormpa
 <div data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px">
 
 </div>
-<p><img data-src="https://www.thersa.org/globalassets/_foundation/new-site-blocks-and-images/staff-page/2022-staff-images/eirini-zormpa.jpg" class="absolute" style="top: 85px; right: 50px; width: 350px; height: 350px; "></p>
-<div class="column" style="width:60%;">
 <p><strong>Eirini Zormpa</strong>, Quantitative Researcher</p>
-<p><br></p>
-<p>Previously:</p>
 <ul>
-<li><strong>PhD Student</strong> @ Max Planck Institute for Psycholinguistics <span class="emoji" data-emoji="brain">🧠</span></li>
-<li><strong>Trainer on Research Data Management &amp; Open Science</strong> @ Delft University of Technology <span class="emoji" data-emoji="computer">💻</span></li>
-<li><strong>Research Community Manager</strong> @ The Alan Turing Institute <span class="emoji" data-emoji="robot">🤖</span></li>
+<li>Secondary data from the ONS <span class="emoji" data-emoji="money_with_wings">💸</span> <span class="emoji" data-emoji="house">🏠</span> <span class="emoji" data-emoji="leaves">🍃</span></li>
+</ul>
+<p><br></p>
+<div class="fragment">
+<h3 id="previously">Previously:</h3>
+<ul>
+<li><strong>Research infrastructure</strong> @ TU Delft &amp; The Alan Turing Institute
+<ul>
+<li>Participation data in courses and other events <span class="emoji" data-emoji="mortar_board">🎓</span></li>
+</ul></li>
+<li><strong>PhD Student</strong> @ Max Planck Institute for Psycholinguistics
+<ul>
+<li>Primary data from human participants <span class="emoji" data-emoji="speech_balloon">💬</span> <span class="emoji" data-emoji="eyes">👀</span> <span class="emoji" data-emoji="brain">🧠</span></li>
+</ul></li>
 </ul>
 </div>
-</section>
-<section>
-<section id="introduction-to-r" class="title-slide slide level1 center">
-<h1>Introduction to R</h1>
-
 </section>
 <section id="why-r" class="slide level2">
 <h2>Why R?</h2>
@@ -439,20 +441,33 @@ Eirini Zormpa
 <p>R is both a programming language and the software used to interpret it. It is <strong>free</strong> and <strong>open source</strong>. <span class="emoji" data-emoji="x">❌</span> <span class="emoji" data-emoji="moneybag">💰</span> = <span class="emoji" data-emoji="tada">🎉</span></p>
 <div class="fragment">
 <ul>
-<li><span class="emoji" data-emoji="recycle">♻️</span> <strong>reproducibility</strong>: R is not point-and-click, so when repeating an analysis, you don’t have to remember what you pressed when. It’s all written down for you in a script!</li>
+<li><span class="emoji" data-emoji="recycle">♻️</span> <strong>reproducibility</strong>: because R is a programming language (not point-and-click), you don’t have to remember what you pressed when to repeat something. It’s all written down for you in a script!</li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li><span class="emoji" data-emoji="floppy_disk">💾</span> <strong>working with data</strong>: R was created by statisticians for statistics. It has useful features for data analysis and allows you to make beautiful graphics.</li>
+<li><span class="emoji" data-emoji="floppy_disk">💾</span> <strong>working with data</strong>: R was created by statisticians for statistics and data work is where it shines</li>
 </ul>
 </div>
 <div class="fragment">
 <ul>
-<li><span class="emoji" data-emoji="milky_way">🌌</span> <strong>working in any discipline</strong>: R is open source, meaning anyone can contribute code to extend its functionality (currently in 10,000+ packages).</li>
+<li><span class="emoji" data-emoji="oyster">🦪</span> <strong>working in any discipline</strong>: because R is open source, anyone can contribute code to extend its functionality (currently 10,000+ packages).</li>
 </ul>
 </div>
 </section>
+<section id="r-in-the-wild" class="slide level2">
+<h2>R in the wild</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/44a415100683383.631e30537753e.png"></p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="https://raw.githubusercontent.com/gkaramanis/tidytuesday/master/2019/2019-week-23/ramen.png"></p>
+</div>
+</div>
+
+<aside><div>
+<p>Image credits: <a href="https://www.cedricscherer.com/">Cedrik Scherer</a> and <a href="https://github.com/gkaramanis">George Karamanis</a> (Tidy Tuesday submissions)</p>
+</div></aside></section>
 <section id="why-r-studio" class="slide level2">
 <h2>Why R Studio?</h2>
 <div data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px">
@@ -466,7 +481,7 @@ Eirini Zormpa
 </div>
 <div class="fragment">
 <ul>
-<li><span class="emoji" data-emoji="open_file_folder">📂</span> it supports reproducibility through features like <code>projects</code>.</li>
+<li><span class="emoji" data-emoji="recycle">♻️</span> it supports reproducibility through features like <code>projects</code>.</li>
 </ul>
 </div>
 <div class="fragment">
@@ -485,10 +500,8 @@ Eirini Zormpa
 </div>
 <ul>
 <li>Navigate the RStudio Graphical User Interface (GUI).</li>
-<li>Install <code>packages</code> to access additional functionality.</li>
 <li>Perform simple arithmetic calculations in R.</li>
-<li>Understand programming terms, like <code>objects</code>, <code>functions</code>, <code>arguments</code> and <code>vectors</code>.</li>
-<li>Learn basic ways to work with missing data.</li>
+<li>Understand basic programming terms, like <code>objects</code> and <code>functions</code>.</li>
 </ul>
 </section>
 <section id="r-projects-file-paths" class="slide level2">
@@ -500,10 +513,10 @@ Eirini Zormpa
 <p>Which one looks more reproducible?:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># option 1: absolute path</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a>interviews <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"/Users/Eirini.zormpa/Documents/rsa-r-training/data_raw/SAFI_clean.csv"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2"></a>interviews <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"/Users/Eirini.zormpa/Documents/rsa-r-training/data_raw/synthetic-census-data.csv"</span>)</span>
 <span id="cb1-3"><a href="#cb1-3"></a></span>
 <span id="cb1-4"><a href="#cb1-4"></a><span class="co"># option 2: relative path</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a>ceramics_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data_raw/SAFI_clean.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-5"><a href="#cb1-5"></a>ceramics_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"data_raw/synthetic-census-data.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="fragment">
 <p>Option 2 is more reproducible, as it allows you to move your project around on your computer and share it with others without having to directly modify file paths in the individual scripts.</p>
@@ -554,33 +567,10 @@ Eirini Zormpa
 <div data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px">
 
 </div>
-<p><span class="emoji" data-emoji="alarm_clock">⏰</span> <strong>3 mins</strong></p>
-<div class="cell">
-<div class="cell-output-display">
-<div class="countdown" id="timer_767ff481" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
-<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">03</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
-</div>
-</div>
-<p>Find out the current content of the object <code>distance_miles</code>.</p>
-</section>
-<section id="exercise-1.1-solution" class="slide level2">
-<h2>Exercise 1.1 solution</h2>
-<div data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px">
-
-</div>
-<p>Because we have not rerun the code <code>distance_miles &lt;- 0.62*distance_kms</code> after assigning the new value of <code>distance_kms</code> the value of <code>distance_miles</code> is still <code>9.3</code>.</p>
-</section>
-<section id="exercise-1.2" class="slide level2">
-<h2>Exercise 1.2</h2>
-<div data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px">
-
-</div>
 <p><span class="emoji" data-emoji="alarm_clock">⏰</span> <strong>5 mins</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_9cb7afaf" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_473261e9" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -588,8 +578,8 @@ Eirini Zormpa
 </div>
 <p>Create two variables <code>income</code> and <code>expenses</code> and assign them values. Create a third variable <code>profit</code> and give it a value based on the current values of <code>income</code> and <code>expenses</code> Show that changing the values of either <code>income</code> or <code>expenses</code> does not affect the value of <code>profit</code></p>
 </section>
-<section id="exercise-1.2-solution" class="slide level2">
-<h2>Exercise 1.2 solution</h2>
+<section id="exercise-1.1-solution" class="slide level2">
+<h2>Exercise 1.1 solution</h2>
 <div data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px">
 
 </div>
@@ -601,11 +591,11 @@ Eirini Zormpa
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 10</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># change the values of income and expenses</span></span>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># change the values of `income` and `expenses`</span></span>
 <span id="cb4-2"><a href="#cb4-2"></a>income <span class="ot">&lt;-</span> <span class="dv">80</span></span>
 <span id="cb4-3"><a href="#cb4-3"></a>expenses <span class="ot">&lt;-</span> <span class="dv">100</span></span>
 <span id="cb4-4"><a href="#cb4-4"></a></span>
-<span id="cb4-5"><a href="#cb4-5"></a><span class="co"># the value of profit hasn't changed</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="co"># the value of `profit` hasn't changed</span></span>
 <span id="cb4-6"><a href="#cb4-6"></a>profit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 10</code></pre>
@@ -660,15 +650,15 @@ Eirini Zormpa
 </ul>
 </div>
 </section>
-<section id="exercise-1.3" class="slide level2">
-<h2>Exercise 1.3</h2>
+<section id="exercise-1.2" class="slide level2">
+<h2>Exercise 1.2</h2>
 <div data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px">
 
 </div>
 <p><span class="emoji" data-emoji="alarm_clock">⏰</span> <strong>10 mins</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_9be7203b" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_b8ba6bb6" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -683,8 +673,8 @@ Eirini Zormpa
 </div>
 <p><strong>Hint</strong>: use <code>typeof()</code> to check the data type of your objects</p>
 </section>
-<section id="exercise-1.3-solution" class="slide level2">
-<h2>Exercise 1.3 solution</h2>
+<section id="exercise-1.2-solution" class="slide level2">
+<h2>Exercise 1.2 solution</h2>
 <div data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px">
 
 </div>
@@ -708,48 +698,48 @@ Eirini Zormpa
 </div>
 <p>Vectors can be of only <strong>one data type</strong>. R tries to convert (coerce) the content of this vector to find a “common denominator” that doesn’t lose any information.</p>
 </section>
-<section id="exercise-1.4" class="slide level2">
-<h2>Exercise 1.4</h2>
+<section id="exercise-1.3" class="slide level2">
+<h2>Exercise 1.3</h2>
 <div data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px">
 
 </div>
 <p><span class="emoji" data-emoji="alarm_clock">⏰</span> <strong>10 mins</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_3c7b3567" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_f8c8aaac" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a>rooms <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="cn">NA</span>, <span class="dv">3</span>, <span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">8</span>, <span class="dv">3</span>, <span class="dv">1</span>, <span class="cn">NA</span>, <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a>bedrooms <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="cn">NA</span>, <span class="dv">3</span>, <span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">2</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">8</span>, <span class="dv">3</span>, <span class="dv">1</span>, <span class="cn">NA</span>, <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ol type="1">
 <li>Using the above vector, create a new vector with the <code>NA</code>s removed.</li>
-<li>Use the function <code>median()</code> to calculate the median of the <code>rooms</code> vector.</li>
-<li>How many households have more than two rooms?</li>
+<li>Use the function <code>median()</code> to calculate the median of the <code>bedrooms</code> vector.</li>
+<li>How many households have more than two bedrooms?</li>
 </ol>
 </section>
-<section id="exercise-1.4-solution" class="slide level2">
-<h2>Exercise 1.4 solution</h2>
+<section id="exercise-1.3-solution" class="slide level2">
+<h2>Exercise 1.3 solution</h2>
 <div data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px">
 
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a><span class="co"># 1. </span></span>
-<span id="cb16-2"><a href="#cb16-2"></a>rooms_no_na <span class="ot">&lt;-</span> rooms[<span class="sc">!</span><span class="fu">is.na</span>(rooms)]</span>
+<span id="cb16-2"><a href="#cb16-2"></a>bedrooms_no_na <span class="ot">&lt;-</span> bedrooms[<span class="sc">!</span><span class="fu">is.na</span>(bedrooms)]</span>
 <span id="cb16-3"><a href="#cb16-3"></a><span class="co"># or</span></span>
-<span id="cb16-4"><a href="#cb16-4"></a>rooms_no_na <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(rooms)</span>
+<span id="cb16-4"><a href="#cb16-4"></a>bedrooms_no_na <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(bedrooms)</span>
 <span id="cb16-5"><a href="#cb16-5"></a></span>
 <span id="cb16-6"><a href="#cb16-6"></a><span class="co"># 2.</span></span>
-<span id="cb16-7"><a href="#cb16-7"></a><span class="fu">median</span>(rooms, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-7"><a href="#cb16-7"></a><span class="fu">median</span>(bedrooms, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 1</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a><span class="co"># 3.</span></span>
-<span id="cb18-2"><a href="#cb18-2"></a>rooms_above_2 <span class="ot">&lt;-</span> rooms_no_na[rooms_no_na <span class="sc">&gt;</span> <span class="dv">2</span>]</span>
-<span id="cb18-3"><a href="#cb18-3"></a><span class="fu">length</span>(rooms_above_2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb18-2"><a href="#cb18-2"></a>bedrooms_above_2 <span class="ot">&lt;-</span> bedrooms_no_na[bedrooms_no_na <span class="sc">&gt;</span> <span class="dv">2</span>]</span>
+<span id="cb18-3"><a href="#cb18-3"></a><span class="fu">length</span>(bedrooms_above_2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 4</code></pre>
 </div>
@@ -762,13 +752,12 @@ Eirini Zormpa
 </div>
 <p>So far you have learned how to:</p>
 <ul>
-<li><span class="emoji" data-emoji="white_check_mark">✅</span> Interact with the RStudio GUI,</li>
-<li><span class="emoji" data-emoji="white_check_mark">✅</span> Set up projects,</li>
-<li><span class="emoji" data-emoji="white_check_mark">✅</span> Create files from RStudio,</li>
-<li><span class="emoji" data-emoji="white_check_mark">✅</span> Assign values to objects,</li>
-<li><span class="emoji" data-emoji="white_check_mark">✅</span> Use functions,</li>
-<li><span class="emoji" data-emoji="white_check_mark">✅</span> Create and subset vectors,</li>
-<li><span class="emoji" data-emoji="white_check_mark">✅</span> Work with missing data</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> Navigate the RStudio Graphical User Interface (GUI).</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> Create files and R projects.</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> Perform simple arithmetic calculations in R.</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> Create <code>objects</code> and <code>vectors</code>.</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> Use functions.</li>
+<li><span class="emoji" data-emoji="white_check_mark">✅</span> Work with missing data.</li>
 </ul>
 </section>
 <section id="programming-note" class="slide level2">
@@ -777,11 +766,13 @@ Eirini Zormpa
 
 </div>
 <p>When we say R is a language, we mean just that: We need to learn <strong>a new way of communicating</strong> that lets us talk to the R software.</p>
-<p><br></p>
+<div class="fragment">
 <p>Software isn’t as smart as humans and have no tolerance for errors: if we don’t tell it what we do just the way it wants, it won’t work.</p>
-<p><br></p>
+</div>
+<div class="fragment">
 <p>Learning how to speak the software’s language takes time and practice, but we’re here to help you <span class="emoji" data-emoji="muscle">💪</span><span class="emoji" data-emoji="sparkles">✨</span></p>
-</section></section>
+</div>
+</section>
 <section id="thank-you-for-your-attention" class="title-slide slide level1 center">
 <h1>Thank you for your attention <span class="emoji" data-emoji="sparkles">✨</span></h1>
 <div class="footer footer-default">
