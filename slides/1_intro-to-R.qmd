@@ -347,7 +347,6 @@ bedrooms <- c(1, 2, 1, 1, NA, 3, 1, 3, 2, 1, 1, 8, 3, 1, NA, 1)
 
 1. Using the above vector, create a new vector with the `NA`s removed.
 2. Use the function `median()` to calculate the median of the `bedrooms` vector.
-3. How many households have more than two bedrooms?
 
 ## Exercise 1.3 solution
 
@@ -359,16 +358,10 @@ bedrooms <- c(1, 2, 1, 1, NA, 3, 1, 3, 2, 1, 1, 8, 3, 1, NA, 1)
 #| echo: true
 
 # 1. 
-bedrooms_no_na <- bedrooms[!is.na(bedrooms)]
-# or
 bedrooms_no_na <- na.omit(bedrooms)
 
 # 2.
 median(bedrooms, na.rm = TRUE)
-
-# 3.
-bedrooms_above_2 <- bedrooms_no_na[bedrooms_no_na > 2]
-length(bedrooms_above_2)
 ```
 
 
