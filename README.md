@@ -4,7 +4,7 @@ They were used in a hands-on live-coding workshop.
 
 The links to the slides will be added below:
 
-- Slides for Session 1: Introduction to R
+- Slides for Session 1: [Introduction to R](https://thersaorg.github.io/r-training/slides/1_intro-to-R.html#/title-slide)
 - Slides for Session 2: Getting started with data in R
 - Slides for Session 3: Data wrangling with `tidyr` and `dplyr`
 - Slides for Session 4: Data visualisation with `ggplot2`
