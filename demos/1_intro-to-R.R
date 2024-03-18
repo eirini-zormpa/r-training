@@ -30,6 +30,19 @@ exchange_rate <- 1.17
 
 eur <- gbp * exchange_rate
 
+# exercise 1
+income <- 100
+expenses <- 90
+profit <- income - expenses
+profit
+
+## change the values of `income` and `expenses`
+income <- 80
+expenses <- 100
+
+## the value of `profit` hasn't changed
+profit
+
 # functions
 sqrt(2)
 
@@ -43,7 +56,7 @@ round(digits = 2, x = 1.414214)
 
 
 # vectors
-hh_size <- c(1, 3, 1, 2, 4, 5)
+hh_size <- c(1, 3, 1, 2, 4, 5, 6)
 region <- c("London", "South East", "North East")
 
 length(hh_size)
@@ -57,3 +70,22 @@ str(region)
 
 region <- c (region, "Scotland")
 region <- c("East Midlands", region)
+
+mean(hh_size)
+median(hh_size)
+
+# missing data
+cars <- c(1, 2, 4, NA, 2, 3, 2)
+
+length(cars)
+mean(cars)
+
+mean(cars, na.rm = TRUE)
+
+is.na(cars)
+sum(is.na(cars))
+
+cars_no_na <- na.omit(cars)
+cars_no_na
+
+sum(is.na(cars_no_na))
