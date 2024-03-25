@@ -1,5 +1,5 @@
 # session 1 - intro to R
-# date: 
+# date: 18 March 2024
 # instructor: Eirini Zormpa
 
 # basic math

@@ -131,18 +131,20 @@ Image credits: [Cedrik Scherer](https://www.cedricscherer.com/) and [George Kara
 There are helpers in person and online. If your code doesn't work, they're here to help you :muscle::
 
 - If you're attending in person, raise your hand and wait until someone comes over.
-- If you're attending online, **paste the code you run and the error message in the chat**. Don't just say that something didn't work for you, as we won't have enough information to help you.
+- If you're attending online, **paste the code you ran and the error message in the chat**. Don't just say that something didn't work for you, as we won't have enough information to help you.
 
-## Learning objectives
+## Create an R Project
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
 
 :::
 
-- Navigate the RStudio Graphical User Interface (GUI).
-- Perform simple arithmetic calculations in R.
-- Understand basic programming terms, like `objects` and `functions`.
-
+1. Under the **`File`** menu, click on **`New project`**
+2. In the wizard that pops up click on **`New directory`** > **`New project`**
+3. You will now create the working directory for the rest of the workshop and save it in a convenient location.
+4. Give a good name to your new directory (folder), e.g. **`r-workshop`**. Make sure your name doesn't have spaces or special characters!
+5. Click on **`Browse`** and navigate to a suitable location for this repository and click on **`Open`** when you are in a location you are happy with.
+3. Click on **`Create project`**.
 
 ## R Projects: File paths :recycle:
 
@@ -194,18 +196,6 @@ flowchart TB
 
 ```
 
-## Create an R Project
-
-::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
-
-:::
-
-1. Under the **`File`** menu, click on **`New project`**
-2. In the wizard that pops up click on **`New directory`** > **`New project`**
-3. You will now create the working directory for the rest of the workshop and save it in a convenient location.
-4. Give a good name to your new directory (folder), e.g. **`r-workshop`**. Make sure your name doesn't have spaces or special characters!
-5. Click on **`Browse`** and navigate to a suitable location for this repository and click on **`Open`** when you are in a location you are happy with.
-3. Click on **`Create project`**.
 
 ## Exercise 1.1
 
