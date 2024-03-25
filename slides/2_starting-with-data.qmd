@@ -207,8 +207,8 @@ We can do both in one go in R by typing the following command in the console:
 #| eval: false
 
 # download the data
-download.file(url = "https://raw.githubusercontent.com/eirini-zormpa/r-training/main/data_raw/synthetic-census-data.csv?download=1",
-              destfile = here("data_raw/census_data.csv"))
+download.file(url = "https://raw.githubusercontent.com/theRSAorg/r-training/main/data_raw/synthetic-census-data.csv?download=1",
+              destfile = here("raw_data", "census_data.csv"))
 ```
 
 After you have run this command, open the `data_raw` folder and check that there is a file called `census_data.csv`.

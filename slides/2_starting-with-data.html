@@ -8,7 +8,7 @@
 <link href="2_starting-with-data_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="2_starting-with-data_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="2_starting-with-data_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Eirini Zormpa">
   <title>Getting started with data in R</title>
@@ -31,7 +31,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -221,7 +221,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -385,7 +386,9 @@
     }
   </style>
   <link href="2_starting-with-data_files/libs/countdown-0.4.0/countdown.css" rel="stylesheet">
+
   <script src="2_starting-with-data_files/libs/countdown-0.4.0/countdown.js"></script>
+
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -575,12 +578,12 @@ Eirini Zormpa
 <li>Go to the console and type the following commands</li>
 </ol>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># create separate folders for the raw and clean data</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">dir.create</span>(<span class="st">"data_raw"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">dir.create</span>(<span class="st">"data_clean"</span>)</span>
-<span id="cb1-4"><a href="#cb1-4"></a></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="co"># only if you don't have one already, create a folder for the scripts</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="fu">dir.create</span>(<span class="st">"scripts"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href=""></a><span class="co"># create separate folders for the raw and clean data</span></span>
+<span id="cb1-2"><a href=""></a><span class="fu">dir.create</span>(<span class="st">"data_raw"</span>)</span>
+<span id="cb1-3"><a href=""></a><span class="fu">dir.create</span>(<span class="st">"data_clean"</span>)</span>
+<span id="cb1-4"><a href=""></a></span>
+<span id="cb1-5"><a href=""></a><span class="co"># only if you don't have one already, create a folder for the scripts</span></span>
+<span id="cb1-6"><a href=""></a><span class="fu">dir.create</span>(<span class="st">"scripts"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="importing-data-download" class="slide level2">
@@ -591,9 +594,9 @@ Eirini Zormpa
 <p>Then we need to 1) download the data and 2) save it in the <code>data_raw</code> folder we just created it.</p>
 <p>We can do both in one go in R by typing the following command in the console:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># download the data</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="fu">download.file</span>(<span class="at">url =</span> <span class="st">"https://raw.githubusercontent.com/eirini-zormpa/r-training/main/data_raw/synthetic-census-data.csv?download=1"</span>,</span>
-<span id="cb2-3"><a href="#cb2-3"></a>              <span class="at">destfile =</span> <span class="fu">here</span>(<span class="st">"data_raw/census_data.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href=""></a><span class="co"># download the data</span></span>
+<span id="cb2-2"><a href=""></a><span class="fu">download.file</span>(<span class="at">url =</span> <span class="st">"https://raw.githubusercontent.com/theRSAorg/r-training/main/data_raw/synthetic-census-data.csv?download=1"</span>,</span>
+<span id="cb2-3"><a href=""></a>              <span class="at">destfile =</span> <span class="fu">here</span>(<span class="st">"raw_data"</span>, <span class="st">"census_data.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>After you have run this command, open the <code>data_raw</code> folder and check that there is a file called <code>census_data.csv</code>.</p>
 </section>
@@ -605,7 +608,7 @@ Eirini Zormpa
 <p><span class="emoji" data-emoji="alarm_clock">⏰</span> <strong>10 mins</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_27d917de" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_0c364efd" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -627,16 +630,16 @@ Eirini Zormpa
 
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="do">## 1.</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a>census_200 <span class="ot">&lt;-</span> census_data[<span class="dv">200</span>, ]</span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="do">## 2.</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="co"># Saving `n_rows` to improve readability and reduce duplication</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a>n_rows <span class="ot">&lt;-</span> <span class="fu">nrow</span>(census_data)</span>
-<span id="cb3-6"><a href="#cb3-6"></a>census_last <span class="ot">&lt;-</span> census_data[n_rows, ]</span>
-<span id="cb3-7"><a href="#cb3-7"></a><span class="do">## 3.</span></span>
-<span id="cb3-8"><a href="#cb3-8"></a>census_middle <span class="ot">&lt;-</span> census_data[n_rows <span class="sc">/</span> <span class="dv">2</span>, ]</span>
-<span id="cb3-9"><a href="#cb3-9"></a><span class="do">## 4.</span></span>
-<span id="cb3-10"><a href="#cb3-10"></a>census_head <span class="ot">&lt;-</span> census_data[<span class="sc">-</span>(<span class="dv">7</span><span class="sc">:</span>n_rows), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href=""></a><span class="do">## 1.</span></span>
+<span id="cb3-2"><a href=""></a>census_200 <span class="ot">&lt;-</span> census_data[<span class="dv">200</span>, ]</span>
+<span id="cb3-3"><a href=""></a><span class="do">## 2.</span></span>
+<span id="cb3-4"><a href=""></a><span class="co"># Saving `n_rows` to improve readability and reduce duplication</span></span>
+<span id="cb3-5"><a href=""></a>n_rows <span class="ot">&lt;-</span> <span class="fu">nrow</span>(census_data)</span>
+<span id="cb3-6"><a href=""></a>census_last <span class="ot">&lt;-</span> census_data[n_rows, ]</span>
+<span id="cb3-7"><a href=""></a><span class="do">## 3.</span></span>
+<span id="cb3-8"><a href=""></a>census_middle <span class="ot">&lt;-</span> census_data[n_rows <span class="sc">/</span> <span class="dv">2</span>, ]</span>
+<span id="cb3-9"><a href=""></a><span class="do">## 4.</span></span>
+<span id="cb3-10"><a href=""></a>census_head <span class="ot">&lt;-</span> census_data[<span class="sc">-</span>(<span class="dv">7</span><span class="sc">:</span>n_rows), ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="factors" class="slide level2">
@@ -667,7 +670,7 @@ Eirini Zormpa
 <p><span class="emoji" data-emoji="alarm_clock">⏰</span> <strong>5 mins</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_454e688d" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_78b24a4f" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -688,11 +691,11 @@ Eirini Zormpa
 
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>census_data<span class="sc">$</span>dwelling_type <span class="ot">&lt;-</span> <span class="fu">factor</span>(census_data<span class="sc">$</span>dwelling_type)</span>
-<span id="cb4-2"><a href="#cb4-2"></a>census_data<span class="sc">$</span>region <span class="ot">&lt;-</span> <span class="fu">factor</span>(census_data<span class="sc">$</span>region)</span>
-<span id="cb4-3"><a href="#cb4-3"></a></span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="fu">nlevels</span>(census_data<span class="sc">$</span>dwelling_type)</span>
-<span id="cb4-5"><a href="#cb4-5"></a><span class="fu">summary</span>(census_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href=""></a>census_data<span class="sc">$</span>dwelling_type <span class="ot">&lt;-</span> <span class="fu">factor</span>(census_data<span class="sc">$</span>dwelling_type)</span>
+<span id="cb4-2"><a href=""></a>census_data<span class="sc">$</span>region <span class="ot">&lt;-</span> <span class="fu">factor</span>(census_data<span class="sc">$</span>region)</span>
+<span id="cb4-3"><a href=""></a></span>
+<span id="cb4-4"><a href=""></a><span class="fu">nlevels</span>(census_data<span class="sc">$</span>dwelling_type)</span>
+<span id="cb4-5"><a href=""></a><span class="fu">summary</span>(census_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="exercise-2.3" class="slide level2">
@@ -703,7 +706,7 @@ Eirini Zormpa
 <p><span class="emoji" data-emoji="alarm_clock">⏰</span> <strong>5 mins</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_d4b8b84a" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
+<div class="countdown" id="timer_94b600ba" data-update-every="1" tabindex="0" style="right:0;bottom:0;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -720,14 +723,14 @@ Eirini Zormpa
 
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a>census_data<span class="sc">$</span>central_heating <span class="ot">&lt;-</span> <span class="fu">fct_recode</span>(census_data<span class="sc">$</span>central_heating,</span>
-<span id="cb5-2"><a href="#cb5-2"></a>                              <span class="at">No =</span> <span class="st">"no"</span>,</span>
-<span id="cb5-3"><a href="#cb5-3"></a>                              <span class="at">Unknown =</span> <span class="st">"unknown"</span>,</span>
-<span id="cb5-4"><a href="#cb5-4"></a>                              <span class="at">Yes =</span> <span class="st">"yes"</span>)</span>
-<span id="cb5-5"><a href="#cb5-5"></a></span>
-<span id="cb5-6"><a href="#cb5-6"></a>census_data<span class="sc">$</span>central_heating <span class="ot">&lt;-</span> <span class="fu">factor</span>(census_data<span class="sc">$</span>central_heating, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"No"</span>, <span class="st">"Yes"</span>, <span class="st">"Unknown"</span>))</span>
-<span id="cb5-7"><a href="#cb5-7"></a></span>
-<span id="cb5-8"><a href="#cb5-8"></a><span class="fu">plot</span>(census_data<span class="sc">$</span>central_heating)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href=""></a>census_data<span class="sc">$</span>central_heating <span class="ot">&lt;-</span> <span class="fu">fct_recode</span>(census_data<span class="sc">$</span>central_heating,</span>
+<span id="cb5-2"><a href=""></a>                              <span class="at">No =</span> <span class="st">"no"</span>,</span>
+<span id="cb5-3"><a href=""></a>                              <span class="at">Unknown =</span> <span class="st">"unknown"</span>,</span>
+<span id="cb5-4"><a href=""></a>                              <span class="at">Yes =</span> <span class="st">"yes"</span>)</span>
+<span id="cb5-5"><a href=""></a></span>
+<span id="cb5-6"><a href=""></a>census_data<span class="sc">$</span>central_heating <span class="ot">&lt;-</span> <span class="fu">factor</span>(census_data<span class="sc">$</span>central_heating, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">"No"</span>, <span class="st">"Yes"</span>, <span class="st">"Unknown"</span>))</span>
+<span id="cb5-7"><a href=""></a></span>
+<span id="cb5-8"><a href=""></a><span class="fu">plot</span>(census_data<span class="sc">$</span>central_heating)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
 <img data-src="2_starting-with-data_files/figure-revealjs/unnamed-chunk-9-1.png" width="960" class="r-stretch"></section>
@@ -753,8 +756,10 @@ Eirini Zormpa
 <li><span class="emoji" data-emoji="white_check_mark">✅</span> Understand and manipulate <code>factors</code>.</li>
 <li><span class="emoji" data-emoji="white_check_mark">✅</span> Alternate between date formats.</li>
 </ul>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section>
     </div>
@@ -783,7 +788,6 @@ Eirini Zormpa
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -969,42 +973,80 @@ Eirini Zormpa
       });
     </script>
     
+
     <script>
+
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+
       // slide changes (different for each slide format).
+
       (function () {
+
         // dispatch for htmlwidgets
+
         function fireSlideEnter() {
+
           const event = window.document.createEvent("Event");
+
           event.initEvent("slideenter", true, true);
+
           window.document.dispatchEvent(event);
+
         }
+
+    
 
         function fireSlideChanged(previousSlide, currentSlide) {
+
           fireSlideEnter();
 
+    
+
           // dispatch for shiny
+
           if (window.jQuery) {
+
             if (previousSlide) {
+
               window.jQuery(previousSlide).trigger("hidden");
+
             }
+
             if (currentSlide) {
+
               window.jQuery(currentSlide).trigger("shown");
+
             }
+
           }
+
         }
+
+    
 
         // hookup for slidy
+
         if (window.w3c_slidy) {
+
           window.w3c_slidy.add_observer(function (slide_num) {
+
             // slide_num starts at position 1
+
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+
           });
+
         }
 
+    
+
       })();
+
     </script>
+
+    
 
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1082,10 +1124,27 @@ Eirini Zormpa
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1095,8 +1154,17 @@ Eirini Zormpa
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1110,7 +1178,11 @@ Eirini Zormpa
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
