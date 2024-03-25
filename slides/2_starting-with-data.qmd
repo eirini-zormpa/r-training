@@ -40,6 +40,7 @@ library(lubridate)
 - :white_check_mark: Create and subset vectors, 
 - :white_check_mark: Work with missing data 
 
+# Questions from last time?
 
 ## Learning objectives
 
@@ -77,7 +78,7 @@ They look very similar to spreadsheets (like in Excel) but each column is, in fa
 
 
 Technically, what we will be working with in these workshops aren't `data.frames`, they are `tibbles`.
-`tibbles` are basically data frames for the `tidyverse` - they have some subtle differences but nothing you need to be aware of at this point.
+`tibbles` are basically dataframes for the `tidyverse` - they have some subtle differences but nothing you need to worry about at this point.
 
 ## Tabular data: What is tidy data?
 
@@ -162,6 +163,7 @@ Their sole purpose is to be used in training.
 | region | where in the UK the participant is located |
 | interview_date | the date the interview took place |
 | household_size | the number of members in the household |
+| age | the ages of the people in the household |
 | dwelling_type | the type of dwelling |
 | bedrooms | the number of bedrooms in the dwelling |
 | central_heating | whether the dwelling has central heating |
@@ -376,6 +378,6 @@ This [image](https://en.m.wikipedia.org/wiki/File:Date_format_by_country_revised
 :::
 
 - :white_check_mark: Read data into R.
-- :white_check_mark: Understand and manipulate `data frames`.
+- :white_check_mark: Understand and manipulate `tibbles`.
 - :white_check_mark: Understand and manipulate `factors`.
 - :white_check_mark: Alternate between date formats.
