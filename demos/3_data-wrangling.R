@@ -9,7 +9,7 @@ library(tidyverse)
 library(here)
 
 # read in data
-census_data <- read_csv(here("data_raw", "census_data.csv"))
+census_data <- read_csv(here("data_raw", "census_data.csv"), na = "NULL")
 View(census_data)
 
 # factors
@@ -96,6 +96,85 @@ east_midlands_subset_3 <- census_data %>%
   filter(region == "East Midlands") %>%
   select(ID, dwelling_type:cars)
 
+# the above is the magrittr pipe, there has recently been a base R pipe
+# the symbol for that is: |>
+# they are basically the same
 
+# exercise 1
+census_data %>%
+  filter(region == "London") %>%
+  select(household_size, dwelling_type, cars)
 
+# mutate
+census_data %>% 
+  mutate(people_per_room = household_size/bedrooms)
+
+# group_by and summarise
+census_data %>% 
+  group_by(region) %>% 
+  summarise(median_bedroom = median(bedrooms))
+
+census_data %>% 
+  group_by(central_heating, region) %>% 
+  summarise(median_bedroom = median(bedrooms))
+
+census_data %>%
+  filter(!is.na(central_heating)) %>% 
+  group_by(central_heating, region) %>% 
+  summarise(median_bedroom = median(bedrooms)) %>% 
+  View()
+
+census_data %>%
+  drop_na(central_heating) %>% 
+  group_by(central_heating, region) %>% 
+  summarise(median_bedroom = median(bedrooms)) %>% 
+  View()
+
+# ungroup
+census_data %>% 
+  group_by(central_heating, region) %>% 
+  summarise(median_bedroom = median(bedrooms)) %>% 
+  ungroup()
+
+# multiple new columns
+census_data %>% 
+  group_by(central_heating, region) %>% 
+  summarise(median_bedroom = median(bedrooms),
+            mean_hh_size = mean(household_size))
+
+# arrange
+census_data %>% 
+  group_by(central_heating, region) %>% 
+  summarise(median_bedroom = median(bedrooms),
+            mean_hh_size = mean(household_size)) %>% 
+  arrange(mean_hh_size)
+
+## and in descending order
+census_data %>% 
+  group_by(central_heating, region) %>% 
+  summarise(median_bedroom = median(bedrooms),
+            mean_hh_size = mean(household_size)) %>% 
+  arrange(desc(mean_hh_size))
+
+# count
+census_data %>% 
+  count(region)
+
+# exercise 2
+census_data %>%
+  count(dwelling_type)
+
+census_data %>%
+  group_by(dwelling_type) %>%
+  summarise(
+    median_bedrooms = median(bedrooms),
+    min_bedrooms = min(bedrooms),
+    max_bedrooms = max(bedrooms),
+    n = n()
+  )
+
+census_data %>%
+  drop_na(cars) %>%
+  group_by(region) %>%
+  filter(cars == max(cars))
 

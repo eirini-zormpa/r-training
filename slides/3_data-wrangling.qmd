@@ -195,7 +195,7 @@ census_data %>%
 
 3.
 census_data %>%
-  filter(!is.na(cars)) %>%
+  drop_na(cars) %>%
   group_by(region) %>%
   filter(cars == max(cars))
 
