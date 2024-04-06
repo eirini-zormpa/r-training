@@ -21,8 +21,18 @@ library(countdown)
 
 library(tidyr)
 library(dplyr)
+
+library(forcats)
 library(lubridate)
 ```
+
+```{r}
+#| echo: false
+#| eval: true
+
+census_data <- read_csv(here("data_raw/synthetic-census-data.csv"))
+```
+
 
 ## Last time you learned how to:
 
@@ -32,10 +42,65 @@ library(lubridate)
 
 - :white_check_mark: Read data into R
 - :white_check_mark: Understand and manipulate `tibbles`
-- :white_check_mark: Understand and manipulate `factors`
-- :white_check_mark: Alternate between date formats
+- :x: Understand and manipulate `factors`
+- :x: Alternate between date formats
 
-# Data wrangling with `dplyr` and `tidyr`
+## Factors
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+R has a special data class, called `factor`, to deal with *categorical data*. Factors:
+
+- are stored as **integers** associated with labels, though they look like character vectors
+
+. . .
+
+- can be ordered (ordinal) or unordered (nominal)
+
+. . .
+
+-  create a structured relation between the different `levels` (values) of a categorical variable, such as days of the week or responses to a question in a survey
+
+
+## Exercise
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+:alarm_clock: **5 mins**
+
+```{r}
+countdown(minutes = 5)
+```
+
+1. In the `central_heating` variable, rename “no”, “yes”, and "unknown" to “No”, “Yes” and "Unknown" respectively.
+2. Recreate the barplot such that “Unknown” is last.
+
+## Solution
+
+::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
+
+:::
+
+```{r}
+#| echo: true
+#| eval: true
+
+census_data$central_heating <- fct_recode(census_data$central_heating,
+                              No = "no",
+                              Unknown = "unknown",
+                              Yes = "yes")
+
+census_data$central_heating <- factor(census_data$central_heating, levels = c("No", "Yes", "Unknown"))
+
+plot(census_data$central_heating)
+
+```
+
+# Data wrangling with dplyr and tidyr
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
 
@@ -86,44 +151,8 @@ Note that if you `select` before you `filter`, your code won't run.
 That's because you're not retaining the variable that you use in your filtering.
 When piping, **order matters**!
 
+
 ## Exercise 3.2
-
-::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
-
-:::
-
-:alarm_clock: **10 mins**
-
-```{r}
-countdown::countdown(minutes = 10)
-```
-
-Create a new data frame from `census_data` that meets the following criteria:
-
-- contains only the `ID` column and a new column called `interview_date_dmy` containing the interview data in the day-month-year format.
-- In this `interview_date_dmy` column, there are no `NA`s and
-- All values in the `length_cm` are before November 2011.
-
-## Exercise 3.2 solution
-
-::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
-
-:::
-
-```{r}
-#| echo: true
-#| eval: false
-
-census_data %>%
-  filter(!is.na(interview_date)) %>%
-  mutate(interview_date_dmy = ymd(interview_date)) %>%
-  filter(interview_date_dmy < "01-11-2011") %>%
-  select(ID, interview_date_dmy)
-
-```
-
-
-## Exercise 3.3
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
 
@@ -140,7 +169,7 @@ countdown::countdown(minutes = 10)
 3. What was the dwelling type with the most cars for each region?
 
 
-## Exercise 3.3 solution
+## Exercise 3.2 solution
 
 ::: {data-id="box1" style="background: #03ecdd; width: 100px; height: 75px; margin: 10px; position: absolute; top: -100px; left: -10px"}
 
