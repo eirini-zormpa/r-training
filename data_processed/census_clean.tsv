@@ -1,0 +1,864 @@
+ID	region	interview_date	household_size	age	dwelling_type	dwelling_type_detail	bedrooms	central_heating	cars	community_establlishment	religion
+72	Northern Ireland	2011-04-26T00:00:00Z	1	34	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Other hospital	NA
+76	Northern Ireland	2011-04-26T00:00:00Z	2	40	Whole house or bungalow	semi-detached	4	NA	NA	Care home - without nursing	NA
+76	Northern Ireland	2011-04-26T00:00:00Z	2	40	Whole house or bungalow	semi-detached	4	NA	NA	Children home	NA
+76	Northern Ireland	2011-04-26T00:00:00Z	2	40	Whole house or bungalow	semi-detached	4	NA	NA	Other	NA
+76	Northern Ireland	2011-04-26T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	NA	NA	Care home - without nursing	NA
+76	Northern Ireland	2011-04-26T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	NA	NA	Children home	NA
+76	Northern Ireland	2011-04-26T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	NA	NA	Other	NA
+73	West Midlands	2011-04-26T00:00:00Z	1	32	Whole house or bungalow	terraced	2	yes	1	Other	Not stated
+89	East	2011-04-27T00:00:00Z	1	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	General hospital	Christian
+89	East	2011-04-27T00:00:00Z	1	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	Care home - with nursing	Christian
+89	East	2011-04-27T00:00:00Z	1	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	Care home - without nuring	Christian
+89	East	2011-04-27T00:00:00Z	1	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	Other	Christian
+85	London	2011-04-27T00:00:00Z	1	21	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Mental health hospital	Christian
+85	London	2011-04-27T00:00:00Z	1	21	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Care home - without nursing	Christian
+85	London	2011-04-27T00:00:00Z	1	21	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Other	Christian
+101	Scotland	2011-04-27T00:00:00Z	1	48	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Care home - without nursing	NA
+101	Scotland	2011-04-27T00:00:00Z	1	48	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Children home	NA
+101	Scotland	2011-04-27T00:00:00Z	1	48	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Other	NA
+83	South East	2011-04-27T00:00:00Z	1	47	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	1	General hospital	Christian
+83	South East	2011-04-27T00:00:00Z	1	47	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	1	Care home - with nursing	Christian
+83	South East	2011-04-27T00:00:00Z	1	47	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	1	Care home - without nuring	Christian
+83	South East	2011-04-27T00:00:00Z	1	47	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	1	Other	Christian
+80	East Midlands	2011-04-28T00:00:00Z	1	65	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	no	0	Care home - with nursing	Christian
+80	East Midlands	2011-04-28T00:00:00Z	1	65	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	no	0	Care home - without nuring	Christian
+80	East Midlands	2011-04-28T00:00:00Z	1	65	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	no	0	Other	Christian
+102	East Midlands	2011-04-28T00:00:00Z	1	45	Whole house or bungalow	terraced	3	yes	0	Other	Not stated
+78	Scotland	2011-04-28T00:00:00Z	1	21	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Other	NA
+105	Scotland	2011-04-28T00:00:00Z	1	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Mental health hospital	NA
+105	Scotland	2011-04-28T00:00:00Z	1	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Care home - without nursing	NA
+105	Scotland	2011-04-28T00:00:00Z	1	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Other	NA
+104	South West	2011-04-28T00:00:00Z	1	45	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	Care home - with nursing	Christian
+104	South West	2011-04-28T00:00:00Z	1	45	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	Care home - without nuring	Christian
+104	South West	2011-04-28T00:00:00Z	1	45	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	Other	Christian
+106	North West	2011-04-30T00:00:00Z	1	52	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	General hospital	Christian
+106	North West	2011-04-30T00:00:00Z	1	52	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Care home - with nursing	Christian
+106	North West	2011-04-30T00:00:00Z	1	52	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Care home - without nuring	Christian
+106	North West	2011-04-30T00:00:00Z	1	52	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Other	Christian
+109	London	2011-05-03T00:00:00Z	1	95	Whole house or bungalow	semi-detached	3	yes	1	Care home - with nursing	Muslim
+109	London	2011-05-03T00:00:00Z	1	95	Whole house or bungalow	semi-detached	3	yes	1	Care home - without nuring	Muslim
+109	London	2011-05-03T00:00:00Z	1	95	Whole house or bungalow	semi-detached	3	yes	1	Other	Muslim
+113	South East	2011-05-03T00:00:00Z	1	62	Whole house or bungalow	semi-detached	5	yes	1	Care home - without nursing	No religion
+113	South East	2011-05-03T00:00:00Z	1	62	Whole house or bungalow	semi-detached	5	yes	1	Children home	No religion
+113	South East	2011-05-03T00:00:00Z	1	62	Whole house or bungalow	semi-detached	5	yes	1	Other	No religion
+110	West Midlands	2011-05-03T00:00:00Z	1	45	Whole house or bungalow	semi-detached	5	yes	0	Care home - with nursing	No religion
+110	West Midlands	2011-05-03T00:00:00Z	1	45	Whole house or bungalow	semi-detached	5	yes	0	Care home - without nuring	No religion
+110	West Midlands	2011-05-03T00:00:00Z	1	45	Whole house or bungalow	semi-detached	5	yes	0	Other	No religion
+125	London	2011-05-04T00:00:00Z	1	38	Whole house or bungalow	terraced	3	yes	1	Care home - without nursing	No religion
+125	London	2011-05-04T00:00:00Z	1	38	Whole house or bungalow	terraced	3	yes	1	Children home	No religion
+125	London	2011-05-04T00:00:00Z	1	38	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+118	South East	2011-05-04T00:00:00Z	1	26	Whole house or bungalow	terraced	3	yes	0	Mental health hospital	No religion
+118	South East	2011-05-04T00:00:00Z	1	26	Whole house or bungalow	terraced	3	yes	0	Care home - without nursing	No religion
+118	South East	2011-05-04T00:00:00Z	1	26	Whole house or bungalow	terraced	3	yes	0	Other	No religion
+119	South East	2011-05-04T00:00:00Z	1	57	Whole house or bungalow	terraced	3	yes	1	Care home - with nursing	No religion
+119	South East	2011-05-04T00:00:00Z	1	57	Whole house or bungalow	terraced	3	yes	1	Care home - without nuring	No religion
+119	South East	2011-05-04T00:00:00Z	1	57	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+117	London	2011-05-11T00:00:00Z	1	65	Whole house or bungalow	terraced	4	yes	1	General hospital	Not stated
+117	London	2011-05-11T00:00:00Z	1	65	Whole house or bungalow	terraced	4	yes	1	Care home - with nursing	Not stated
+117	London	2011-05-11T00:00:00Z	1	65	Whole house or bungalow	terraced	4	yes	1	Care home - without nuring	Not stated
+117	London	2011-05-11T00:00:00Z	1	65	Whole house or bungalow	terraced	4	yes	1	Other	Not stated
+108	North West	2011-05-11T00:00:00Z	1	31	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	no	0	Social landlord	Christian
+116	South East	2011-05-11T00:00:00Z	1	58	Whole house or bungalow	terraced	4	yes	1	Other	Not stated
+115	Wales	2011-05-11T00:00:00Z	1	36	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+115	Wales	2011-05-11T00:00:00Z	1	36	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+115	Wales	2011-05-11T00:00:00Z	1	36	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+159	Scotland	2011-05-18T00:00:00Z	1	56	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Social landlord	NA
+126	South West	2011-05-18T00:00:00Z	1	41	Caravan or other mobile or temporary structure	NA	1	no	1	Social landlord	Christian
+144	South West	2011-05-18T00:00:00Z	1	75	Whole house or bungalow	terraced	4	yes	1	Mental health hospital	Not stated
+144	South West	2011-05-18T00:00:00Z	1	75	Whole house or bungalow	terraced	4	yes	1	Care home - without nursing	Not stated
+144	South West	2011-05-18T00:00:00Z	1	75	Whole house or bungalow	terraced	4	yes	1	Other	Not stated
+150	Yorkshire and The Humber	2011-05-18T00:00:00Z	1	85	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nursing	Christian
+150	Yorkshire and The Humber	2011-05-18T00:00:00Z	1	85	Whole house or bungalow	semi-detached	4	yes	1	Children home	Christian
+150	Yorkshire and The Humber	2011-05-18T00:00:00Z	1	85	Whole house or bungalow	semi-detached	4	yes	1	Other	Christian
+160	London	2011-06-03T00:00:00Z	1	29	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	1	General hospital	Christian
+160	London	2011-06-03T00:00:00Z	1	29	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	1	Care home - with nursing	Christian
+160	London	2011-06-03T00:00:00Z	1	29	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	1	Care home - without nuring	Christian
+160	London	2011-06-03T00:00:00Z	1	29	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	1	Other	Christian
+189	London	2011-06-03T00:00:00Z	2	15	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	1	Care home - with nursing	Christian
+189	London	2011-06-03T00:00:00Z	2	15	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	1	Care home - without nuring	Christian
+189	London	2011-06-03T00:00:00Z	2	15	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	1	Other	Christian
+189	London	2011-06-03T00:00:00Z	2	41	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	1	Care home - with nursing	Christian
+189	London	2011-06-03T00:00:00Z	2	41	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	1	Care home - without nuring	Christian
+189	London	2011-06-03T00:00:00Z	2	41	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	1	Other	Christian
+191	North West	2011-06-03T00:00:00Z	1	18	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	yes	1	Care home - with nursing	Christian
+191	North West	2011-06-03T00:00:00Z	1	18	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	yes	1	Care home - without nuring	Christian
+191	North West	2011-06-03T00:00:00Z	1	18	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	yes	1	Other	Christian
+166	South East	2011-06-03T00:00:00Z	2	24	Caravan or other mobile or temporary structure	NA	1	no	2	Mental health hospital	Christian
+166	South East	2011-06-03T00:00:00Z	2	24	Caravan or other mobile or temporary structure	NA	1	no	2	Care home - without nursing	Christian
+166	South East	2011-06-03T00:00:00Z	2	24	Caravan or other mobile or temporary structure	NA	1	no	2	Other	Christian
+166	South East	2011-06-03T00:00:00Z	2	25	Caravan or other mobile or temporary structure	NA	1	no	2	Mental health hospital	Christian
+166	South East	2011-06-03T00:00:00Z	2	25	Caravan or other mobile or temporary structure	NA	1	no	2	Care home - without nursing	Christian
+166	South East	2011-06-03T00:00:00Z	2	25	Caravan or other mobile or temporary structure	NA	1	no	2	Other	Christian
+167	South West	2011-06-03T00:00:00Z	2	32	Whole house or bungalow	terraced	3	yes	0	Care home - without nursing	No religion
+167	South West	2011-06-03T00:00:00Z	2	32	Whole house or bungalow	terraced	3	yes	0	Children home	No religion
+167	South West	2011-06-03T00:00:00Z	2	32	Whole house or bungalow	terraced	3	yes	0	Other	No religion
+167	South West	2011-06-03T00:00:00Z	2	45	Whole house or bungalow	terraced	3	yes	0	Care home - without nursing	No religion
+167	South West	2011-06-03T00:00:00Z	2	45	Whole house or bungalow	terraced	3	yes	0	Children home	No religion
+167	South West	2011-06-03T00:00:00Z	2	45	Whole house or bungalow	terraced	3	yes	0	Other	No religion
+174	South West	2011-06-03T00:00:00Z	2	23	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+174	South West	2011-06-03T00:00:00Z	2	57	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+175	South West	2011-06-03T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	Christian
+175	South West	2011-06-03T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	Christian
+175	South West	2011-06-03T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	yes	1	Other	Christian
+175	South West	2011-06-03T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	Christian
+175	South West	2011-06-03T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	Christian
+175	South West	2011-06-03T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	yes	1	Other	Christian
+165	Wales	2011-06-03T00:00:00Z	1	30	Whole house or bungalow	terraced	3	yes	0	Other	Not stated
+192	West Midlands	2011-06-03T00:00:00Z	1	72	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	no	0	Care home - without nursing	Christian
+192	West Midlands	2011-06-03T00:00:00Z	1	72	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	no	0	Children home	Christian
+192	West Midlands	2011-06-03T00:00:00Z	1	72	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	no	0	Other	Christian
+194	London	2011-06-04T00:00:00Z	2	25	Whole house or bungalow	terraced	3	yes	2	Care home - with nursing	No religion
+194	London	2011-06-04T00:00:00Z	2	25	Whole house or bungalow	terraced	3	yes	2	Care home - without nuring	No religion
+194	London	2011-06-04T00:00:00Z	2	25	Whole house or bungalow	terraced	3	yes	2	Other	No religion
+194	London	2011-06-04T00:00:00Z	2	25	Whole house or bungalow	terraced	3	yes	2	Care home - with nursing	No religion
+194	London	2011-06-04T00:00:00Z	2	25	Whole house or bungalow	terraced	3	yes	2	Care home - without nuring	No religion
+194	London	2011-06-04T00:00:00Z	2	25	Whole house or bungalow	terraced	3	yes	2	Other	No religion
+200	London	2011-06-04T00:00:00Z	2	3	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	1	Other	Hindu
+200	London	2011-06-04T00:00:00Z	2	43	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	1	Other	Hindu
+199	South East	2011-06-04T00:00:00Z	2	78	Flat, maisonette or apartment	in a commercial building	1	yes	0	Care home - with nursing	Christian
+199	South East	2011-06-04T00:00:00Z	2	78	Flat, maisonette or apartment	in a commercial building	1	yes	0	Care home - without nuring	Christian
+199	South East	2011-06-04T00:00:00Z	2	78	Flat, maisonette or apartment	in a commercial building	1	yes	0	Other	Christian
+199	South East	2011-06-04T00:00:00Z	2	81	Flat, maisonette or apartment	in a commercial building	1	yes	0	Care home - with nursing	Christian
+199	South East	2011-06-04T00:00:00Z	2	81	Flat, maisonette or apartment	in a commercial building	1	yes	0	Care home - without nuring	Christian
+199	South East	2011-06-04T00:00:00Z	2	81	Flat, maisonette or apartment	in a commercial building	1	yes	0	Other	Christian
+193	Wales	2011-06-04T00:00:00Z	2	90	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	no	0	Care home - with nursing	Christian
+193	Wales	2011-06-04T00:00:00Z	2	90	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	no	0	Care home - without nuring	Christian
+193	Wales	2011-06-04T00:00:00Z	2	90	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	no	0	Other	Christian
+193	Wales	2011-06-04T00:00:00Z	2	94	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	no	0	Care home - with nursing	Christian
+193	Wales	2011-06-04T00:00:00Z	2	94	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	no	0	Care home - without nuring	Christian
+193	Wales	2011-06-04T00:00:00Z	2	94	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	no	0	Other	Christian
+48	East Midlands	2011-11-16T00:00:00Z	2	30	Whole house or bungalow	detached	3	yes	2	Other	Christian
+48	East Midlands	2011-11-16T00:00:00Z	2	36	Whole house or bungalow	detached	3	yes	2	Other	Christian
+49	East Midlands	2011-11-16T00:00:00Z	2	50	Whole house or bungalow	terraced	3	yes	2	General hospital	No religion
+49	East Midlands	2011-11-16T00:00:00Z	2	50	Whole house or bungalow	terraced	3	yes	2	Care home - with nursing	No religion
+49	East Midlands	2011-11-16T00:00:00Z	2	50	Whole house or bungalow	terraced	3	yes	2	Care home - without nuring	No religion
+49	East Midlands	2011-11-16T00:00:00Z	2	50	Whole house or bungalow	terraced	3	yes	2	Other	No religion
+49	East Midlands	2011-11-16T00:00:00Z	2	53	Whole house or bungalow	terraced	3	yes	2	General hospital	No religion
+49	East Midlands	2011-11-16T00:00:00Z	2	53	Whole house or bungalow	terraced	3	yes	2	Care home - with nursing	No religion
+49	East Midlands	2011-11-16T00:00:00Z	2	53	Whole house or bungalow	terraced	3	yes	2	Care home - without nuring	No religion
+49	East Midlands	2011-11-16T00:00:00Z	2	53	Whole house or bungalow	terraced	3	yes	2	Other	No religion
+62	East Midlands	2011-11-16T00:00:00Z	2	10	Whole house or bungalow	semi-detached	3	yes	1	Care home - without nursing	Christian
+62	East Midlands	2011-11-16T00:00:00Z	2	10	Whole house or bungalow	semi-detached	3	yes	1	Children home	Christian
+62	East Midlands	2011-11-16T00:00:00Z	2	10	Whole house or bungalow	semi-detached	3	yes	1	Other	Christian
+62	East Midlands	2011-11-16T00:00:00Z	2	28	Whole house or bungalow	semi-detached	3	yes	1	Care home - without nursing	Christian
+62	East Midlands	2011-11-16T00:00:00Z	2	28	Whole house or bungalow	semi-detached	3	yes	1	Children home	Christian
+62	East Midlands	2011-11-16T00:00:00Z	2	28	Whole house or bungalow	semi-detached	3	yes	1	Other	Christian
+67	East Midlands	2011-11-16T00:00:00Z	3	6	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+67	East Midlands	2011-11-16T00:00:00Z	3	6	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+67	East Midlands	2011-11-16T00:00:00Z	3	6	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+67	East Midlands	2011-11-16T00:00:00Z	3	63	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+67	East Midlands	2011-11-16T00:00:00Z	3	63	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+67	East Midlands	2011-11-16T00:00:00Z	3	63	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+67	East Midlands	2011-11-16T00:00:00Z	3	64	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+67	East Midlands	2011-11-16T00:00:00Z	3	64	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+67	East Midlands	2011-11-16T00:00:00Z	3	64	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+53	London	2011-11-16T00:00:00Z	3	32	Whole house or bungalow	semi-detached	4	yes	1	General hospital	No religion
+53	London	2011-11-16T00:00:00Z	3	32	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+53	London	2011-11-16T00:00:00Z	3	32	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+53	London	2011-11-16T00:00:00Z	3	32	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+53	London	2011-11-16T00:00:00Z	3	35	Whole house or bungalow	semi-detached	4	yes	1	General hospital	No religion
+53	London	2011-11-16T00:00:00Z	3	35	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+53	London	2011-11-16T00:00:00Z	3	35	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+53	London	2011-11-16T00:00:00Z	3	35	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+53	London	2011-11-16T00:00:00Z	3	36	Whole house or bungalow	semi-detached	4	yes	1	General hospital	No religion
+53	London	2011-11-16T00:00:00Z	3	36	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+53	London	2011-11-16T00:00:00Z	3	36	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+53	London	2011-11-16T00:00:00Z	3	36	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+55	London	2011-11-16T00:00:00Z	3	20	Whole house or bungalow	detached	4	yes	1	Social landlord	Muslim
+55	London	2011-11-16T00:00:00Z	3	51	Whole house or bungalow	detached	4	yes	1	Social landlord	Muslim
+55	London	2011-11-16T00:00:00Z	3	54	Whole house or bungalow	detached	4	yes	1	Social landlord	Muslim
+58	London	2011-11-16T00:00:00Z	2	1	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	yes	0	Care home - without nursing	Muslim
+58	London	2011-11-16T00:00:00Z	2	1	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	yes	0	Children home	Muslim
+58	London	2011-11-16T00:00:00Z	2	1	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	yes	0	Other	Muslim
+58	London	2011-11-16T00:00:00Z	2	20	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	yes	0	Care home - without nursing	Muslim
+58	London	2011-11-16T00:00:00Z	2	20	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	yes	0	Children home	Muslim
+58	London	2011-11-16T00:00:00Z	2	20	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	yes	0	Other	Muslim
+65	London	2011-11-16T00:00:00Z	2	83	Flat, maisonette or apartment	in a commercial building	2	no	0	Care home - without nursing	Christian
+65	London	2011-11-16T00:00:00Z	2	83	Flat, maisonette or apartment	in a commercial building	2	no	0	Children home	Christian
+65	London	2011-11-16T00:00:00Z	2	83	Flat, maisonette or apartment	in a commercial building	2	no	0	Other	Christian
+65	London	2011-11-16T00:00:00Z	2	90	Flat, maisonette or apartment	in a commercial building	2	no	0	Care home - without nursing	Christian
+65	London	2011-11-16T00:00:00Z	2	90	Flat, maisonette or apartment	in a commercial building	2	no	0	Children home	Christian
+65	London	2011-11-16T00:00:00Z	2	90	Flat, maisonette or apartment	in a commercial building	2	no	0	Other	Christian
+9	North West	2011-11-16T00:00:00Z	2	26	Whole house or bungalow	semi-detached	3	yes	1	Care home - with nursing	Christian
+9	North West	2011-11-16T00:00:00Z	2	26	Whole house or bungalow	semi-detached	3	yes	1	Care home - without nuring	Christian
+9	North West	2011-11-16T00:00:00Z	2	26	Whole house or bungalow	semi-detached	3	yes	1	Other	Christian
+9	North West	2011-11-16T00:00:00Z	2	59	Whole house or bungalow	semi-detached	3	yes	1	Care home - with nursing	Christian
+9	North West	2011-11-16T00:00:00Z	2	59	Whole house or bungalow	semi-detached	3	yes	1	Care home - without nuring	Christian
+9	North West	2011-11-16T00:00:00Z	2	59	Whole house or bungalow	semi-detached	3	yes	1	Other	Christian
+52	North West	2011-11-16T00:00:00Z	1	100	Whole house or bungalow	terraced	3	yes	0	Care home - without nursing	Not stated
+52	North West	2011-11-16T00:00:00Z	1	100	Whole house or bungalow	terraced	3	yes	0	Children home	Not stated
+52	North West	2011-11-16T00:00:00Z	1	100	Whole house or bungalow	terraced	3	yes	0	Other	Not stated
+61	North West	2011-11-16T00:00:00Z	1	25	Whole house or bungalow	semi-detached	3	yes	2	Care home - without nursing	Christian
+61	North West	2011-11-16T00:00:00Z	1	25	Whole house or bungalow	semi-detached	3	yes	2	Children home	Christian
+61	North West	2011-11-16T00:00:00Z	1	25	Whole house or bungalow	semi-detached	3	yes	2	Other	Christian
+59	Northern Ireland	2011-11-16T00:00:00Z	2	26	Whole house or bungalow	detached	3	NA	NA	Care home - with nursing	NA
+59	Northern Ireland	2011-11-16T00:00:00Z	2	26	Whole house or bungalow	detached	3	NA	NA	Care home - without nuring	NA
+59	Northern Ireland	2011-11-16T00:00:00Z	2	26	Whole house or bungalow	detached	3	NA	NA	Other	NA
+59	Northern Ireland	2011-11-16T00:00:00Z	2	47	Whole house or bungalow	detached	3	NA	NA	Care home - with nursing	NA
+59	Northern Ireland	2011-11-16T00:00:00Z	2	47	Whole house or bungalow	detached	3	NA	NA	Care home - without nuring	NA
+59	Northern Ireland	2011-11-16T00:00:00Z	2	47	Whole house or bungalow	detached	3	NA	NA	Other	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	17	Whole house or bungalow	detached	3	NA	NA	General hospital	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	17	Whole house or bungalow	detached	3	NA	NA	Care home - with nursing	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	17	Whole house or bungalow	detached	3	NA	NA	Care home - without nuring	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	17	Whole house or bungalow	detached	3	NA	NA	Other	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	21	Whole house or bungalow	detached	3	NA	NA	General hospital	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	21	Whole house or bungalow	detached	3	NA	NA	Care home - with nursing	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	21	Whole house or bungalow	detached	3	NA	NA	Care home - without nuring	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	21	Whole house or bungalow	detached	3	NA	NA	Other	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	24	Whole house or bungalow	detached	3	NA	NA	General hospital	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	24	Whole house or bungalow	detached	3	NA	NA	Care home - with nursing	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	24	Whole house or bungalow	detached	3	NA	NA	Care home - without nuring	NA
+66	Northern Ireland	2011-11-16T00:00:00Z	3	24	Whole house or bungalow	detached	3	NA	NA	Other	NA
+70	Northern Ireland	2011-11-16T00:00:00Z	4	5	Whole house or bungalow	semi-detached	4	NA	NA	Other hospital	NA
+70	Northern Ireland	2011-11-16T00:00:00Z	4	5	Whole house or bungalow	semi-detached	4	NA	NA	Other	NA
+70	Northern Ireland	2011-11-16T00:00:00Z	4	8	Whole house or bungalow	semi-detached	4	NA	NA	Other hospital	NA
+70	Northern Ireland	2011-11-16T00:00:00Z	4	8	Whole house or bungalow	semi-detached	4	NA	NA	Other	NA
+70	Northern Ireland	2011-11-16T00:00:00Z	4	39	Whole house or bungalow	semi-detached	4	NA	NA	Other hospital	NA
+70	Northern Ireland	2011-11-16T00:00:00Z	4	39	Whole house or bungalow	semi-detached	4	NA	NA	Other	NA
+70	Northern Ireland	2011-11-16T00:00:00Z	4	41	Whole house or bungalow	semi-detached	4	NA	NA	Other hospital	NA
+70	Northern Ireland	2011-11-16T00:00:00Z	4	41	Whole house or bungalow	semi-detached	4	NA	NA	Other	NA
+50	South East	2011-11-16T00:00:00Z	2	58	Whole house or bungalow	detached	4	yes	2	General hospital	Christian
+50	South East	2011-11-16T00:00:00Z	2	58	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+50	South East	2011-11-16T00:00:00Z	2	58	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+50	South East	2011-11-16T00:00:00Z	2	58	Whole house or bungalow	detached	4	yes	2	Other	Christian
+50	South East	2011-11-16T00:00:00Z	2	86	Whole house or bungalow	detached	4	yes	2	General hospital	Christian
+50	South East	2011-11-16T00:00:00Z	2	86	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+50	South East	2011-11-16T00:00:00Z	2	86	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+50	South East	2011-11-16T00:00:00Z	2	86	Whole house or bungalow	detached	4	yes	2	Other	Christian
+51	South East	2011-11-16T00:00:00Z	2	24	Whole house or bungalow	semi-detached	3	yes	3	Care home - without nursing	Christian
+51	South East	2011-11-16T00:00:00Z	2	24	Whole house or bungalow	semi-detached	3	yes	3	Children home	Christian
+51	South East	2011-11-16T00:00:00Z	2	24	Whole house or bungalow	semi-detached	3	yes	3	Other	Christian
+51	South East	2011-11-16T00:00:00Z	2	34	Whole house or bungalow	semi-detached	3	yes	3	Care home - without nursing	Christian
+51	South East	2011-11-16T00:00:00Z	2	34	Whole house or bungalow	semi-detached	3	yes	3	Children home	Christian
+51	South East	2011-11-16T00:00:00Z	2	34	Whole house or bungalow	semi-detached	3	yes	3	Other	Christian
+56	South East	2011-11-16T00:00:00Z	2	15	Whole house or bungalow	semi-detached	4	yes	1	General hospital	No religion
+56	South East	2011-11-16T00:00:00Z	2	15	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+56	South East	2011-11-16T00:00:00Z	2	15	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+56	South East	2011-11-16T00:00:00Z	2	15	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+56	South East	2011-11-16T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	yes	1	General hospital	No religion
+56	South East	2011-11-16T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+56	South East	2011-11-16T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+56	South East	2011-11-16T00:00:00Z	2	42	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+60	South East	2011-11-16T00:00:00Z	2	24	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+60	South East	2011-11-16T00:00:00Z	2	24	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+57	South West	2011-11-16T00:00:00Z	2	48	Whole house or bungalow	detached	5	yes	2	Other	Christian
+57	South West	2011-11-16T00:00:00Z	2	52	Whole house or bungalow	detached	5	yes	2	Other	Christian
+54	Wales	2011-11-16T00:00:00Z	2	25	Whole house or bungalow	detached	3	yes	1	Other	Christian
+54	Wales	2011-11-16T00:00:00Z	2	28	Whole house or bungalow	detached	3	yes	1	Other	Christian
+63	Wales	2011-11-16T00:00:00Z	2	88	Whole house or bungalow	semi-detached	4	yes	1	Social landlord	Christian
+63	Wales	2011-11-16T00:00:00Z	2	96	Whole house or bungalow	semi-detached	4	yes	1	Social landlord	Christian
+8	West Midlands	2011-11-16T00:00:00Z	2	23	Whole house or bungalow	detached	3	yes	3	Care home - with nursing	Christian
+8	West Midlands	2011-11-16T00:00:00Z	2	23	Whole house or bungalow	detached	3	yes	3	Care home - without nuring	Christian
+8	West Midlands	2011-11-16T00:00:00Z	2	23	Whole house or bungalow	detached	3	yes	3	Other	Christian
+8	West Midlands	2011-11-16T00:00:00Z	2	27	Whole house or bungalow	detached	3	yes	3	Care home - with nursing	Christian
+8	West Midlands	2011-11-16T00:00:00Z	2	27	Whole house or bungalow	detached	3	yes	3	Care home - without nuring	Christian
+8	West Midlands	2011-11-16T00:00:00Z	2	27	Whole house or bungalow	detached	3	yes	3	Other	Christian
+64	West Midlands	2011-11-16T00:00:00Z	2	58	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nursing	Muslim
+64	West Midlands	2011-11-16T00:00:00Z	2	58	Whole house or bungalow	semi-detached	4	yes	1	Children home	Muslim
+64	West Midlands	2011-11-16T00:00:00Z	2	58	Whole house or bungalow	semi-detached	4	yes	1	Other	Muslim
+64	West Midlands	2011-11-16T00:00:00Z	2	62	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nursing	Muslim
+64	West Midlands	2011-11-16T00:00:00Z	2	62	Whole house or bungalow	semi-detached	4	yes	1	Children home	Muslim
+64	West Midlands	2011-11-16T00:00:00Z	2	62	Whole house or bungalow	semi-detached	4	yes	1	Other	Muslim
+69	West Midlands	2011-11-16T00:00:00Z	2	36	Whole house or bungalow	terraced	3	yes	1	General hospital	No religion
+69	West Midlands	2011-11-16T00:00:00Z	2	36	Whole house or bungalow	terraced	3	yes	1	Care home - with nursing	No religion
+69	West Midlands	2011-11-16T00:00:00Z	2	36	Whole house or bungalow	terraced	3	yes	1	Care home - without nuring	No religion
+69	West Midlands	2011-11-16T00:00:00Z	2	36	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+69	West Midlands	2011-11-16T00:00:00Z	2	47	Whole house or bungalow	terraced	3	yes	1	General hospital	No religion
+69	West Midlands	2011-11-16T00:00:00Z	2	47	Whole house or bungalow	terraced	3	yes	1	Care home - with nursing	No religion
+69	West Midlands	2011-11-16T00:00:00Z	2	47	Whole house or bungalow	terraced	3	yes	1	Care home - without nuring	No religion
+69	West Midlands	2011-11-16T00:00:00Z	2	47	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+127	Yorkshire and The Humber	2011-11-16T00:00:00Z	1	29	Whole house or bungalow	terraced	4	yes	1	Other	Not stated
+5	East	2011-11-17T00:00:00Z	1	74	Whole house or bungalow	semi-detached	3	yes	4	Other	Christian
+38	East	2011-11-17T00:00:00Z	1	69	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+202	East	2011-11-17T00:00:00Z	1	73	Flat, maisonette or apartment	purpose-built block of flats or tenement	3	yes	0	Other	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	4	Whole house or bungalow	detached	3	no	2	General hospital	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	4	Whole house or bungalow	detached	3	no	2	Care home - with nursing	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	4	Whole house or bungalow	detached	3	no	2	Care home - without nuring	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	4	Whole house or bungalow	detached	3	no	2	Other	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	8	Whole house or bungalow	detached	3	no	2	General hospital	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	8	Whole house or bungalow	detached	3	no	2	Care home - with nursing	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	8	Whole house or bungalow	detached	3	no	2	Care home - without nuring	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	8	Whole house or bungalow	detached	3	no	2	Other	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	43	Whole house or bungalow	detached	3	no	2	General hospital	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	43	Whole house or bungalow	detached	3	no	2	Care home - with nursing	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	43	Whole house or bungalow	detached	3	no	2	Care home - without nuring	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	43	Whole house or bungalow	detached	3	no	2	Other	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	55	Whole house or bungalow	detached	3	no	2	General hospital	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	55	Whole house or bungalow	detached	3	no	2	Care home - with nursing	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	55	Whole house or bungalow	detached	3	no	2	Care home - without nuring	Christian
+42	East Midlands	2011-11-17T00:00:00Z	4	55	Whole house or bungalow	detached	3	no	2	Other	Christian
+35	London	2011-11-17T00:00:00Z	4	8	Whole house or bungalow	terraced	3	yes	0	Other	No religion
+35	London	2011-11-17T00:00:00Z	4	14	Whole house or bungalow	terraced	3	yes	0	Other	No religion
+35	London	2011-11-17T00:00:00Z	4	54	Whole house or bungalow	terraced	3	yes	0	Other	No religion
+35	London	2011-11-17T00:00:00Z	4	60	Whole house or bungalow	terraced	3	yes	0	Other	No religion
+40	London	2011-11-17T00:00:00Z	4	5	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Care home - without nursing	Christian
+40	London	2011-11-17T00:00:00Z	4	5	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Children home	Christian
+40	London	2011-11-17T00:00:00Z	4	5	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Other	Christian
+40	London	2011-11-17T00:00:00Z	4	31	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Care home - without nursing	Christian
+40	London	2011-11-17T00:00:00Z	4	31	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Children home	Christian
+40	London	2011-11-17T00:00:00Z	4	31	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Other	Christian
+40	London	2011-11-17T00:00:00Z	4	33	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Care home - without nursing	Christian
+40	London	2011-11-17T00:00:00Z	4	33	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Children home	Christian
+40	London	2011-11-17T00:00:00Z	4	33	Flat, maisonette or apartment	purpose-built block of flats or tenement	1	yes	0	Other	Christian
+4	North West	2011-11-17T00:00:00Z	2	83	Whole house or bungalow	terraced	3	yes	1	Care home - with nursing	No religion
+4	North West	2011-11-17T00:00:00Z	2	83	Whole house or bungalow	terraced	3	yes	1	Care home - without nuring	No religion
+4	North West	2011-11-17T00:00:00Z	2	83	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+4	North West	2011-11-17T00:00:00Z	2	88	Whole house or bungalow	terraced	3	yes	1	Care home - with nursing	No religion
+4	North West	2011-11-17T00:00:00Z	2	88	Whole house or bungalow	terraced	3	yes	1	Care home - without nuring	No religion
+4	North West	2011-11-17T00:00:00Z	2	88	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+34	North West	2011-11-17T00:00:00Z	2	78	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+34	North West	2011-11-17T00:00:00Z	2	89	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+36	North West	2011-11-17T00:00:00Z	2	11	Whole house or bungalow	semi-detached	3	yes	1	General hospital	Christian
+36	North West	2011-11-17T00:00:00Z	2	11	Whole house or bungalow	semi-detached	3	yes	1	Care home - with nursing	Christian
+36	North West	2011-11-17T00:00:00Z	2	11	Whole house or bungalow	semi-detached	3	yes	1	Care home - without nuring	Christian
+36	North West	2011-11-17T00:00:00Z	2	11	Whole house or bungalow	semi-detached	3	yes	1	Other	Christian
+36	North West	2011-11-17T00:00:00Z	2	37	Whole house or bungalow	semi-detached	3	yes	1	General hospital	Christian
+36	North West	2011-11-17T00:00:00Z	2	37	Whole house or bungalow	semi-detached	3	yes	1	Care home - with nursing	Christian
+36	North West	2011-11-17T00:00:00Z	2	37	Whole house or bungalow	semi-detached	3	yes	1	Care home - without nuring	Christian
+36	North West	2011-11-17T00:00:00Z	2	37	Whole house or bungalow	semi-detached	3	yes	1	Other	Christian
+41	North West	2011-11-17T00:00:00Z	2	7	Whole house or bungalow	semi-detached	3	yes	2	Other	Christian
+41	North West	2011-11-17T00:00:00Z	2	44	Whole house or bungalow	semi-detached	3	yes	2	Other	Christian
+2	Scotland	2011-11-17T00:00:00Z	2	26	Whole house or bungalow	semi-detached	3	NA	NA	Care home - without nursing	NA
+2	Scotland	2011-11-17T00:00:00Z	2	26	Whole house or bungalow	semi-detached	3	NA	NA	Children home	NA
+2	Scotland	2011-11-17T00:00:00Z	2	26	Whole house or bungalow	semi-detached	3	NA	NA	Other	NA
+2	Scotland	2011-11-17T00:00:00Z	2	33	Whole house or bungalow	semi-detached	3	NA	NA	Care home - without nursing	NA
+2	Scotland	2011-11-17T00:00:00Z	2	33	Whole house or bungalow	semi-detached	3	NA	NA	Children home	NA
+2	Scotland	2011-11-17T00:00:00Z	2	33	Whole house or bungalow	semi-detached	3	NA	NA	Other	NA
+3	Scotland	2011-11-17T00:00:00Z	2	51	Whole house or bungalow	semi-detached	3	NA	NA	Care home - with nursing	NA
+3	Scotland	2011-11-17T00:00:00Z	2	51	Whole house or bungalow	semi-detached	3	NA	NA	Care home - without nuring	NA
+3	Scotland	2011-11-17T00:00:00Z	2	51	Whole house or bungalow	semi-detached	3	NA	NA	Other	NA
+3	Scotland	2011-11-17T00:00:00Z	2	73	Whole house or bungalow	semi-detached	3	NA	NA	Care home - with nursing	NA
+3	Scotland	2011-11-17T00:00:00Z	2	73	Whole house or bungalow	semi-detached	3	NA	NA	Care home - without nuring	NA
+3	Scotland	2011-11-17T00:00:00Z	2	73	Whole house or bungalow	semi-detached	3	NA	NA	Other	NA
+6	Scotland	2011-11-17T00:00:00Z	2	27	Whole house or bungalow	detached	3	NA	NA	Care home - with nursing	NA
+6	Scotland	2011-11-17T00:00:00Z	2	27	Whole house or bungalow	detached	3	NA	NA	Care home - without nuring	NA
+6	Scotland	2011-11-17T00:00:00Z	2	27	Whole house or bungalow	detached	3	NA	NA	Other	NA
+6	Scotland	2011-11-17T00:00:00Z	2	39	Whole house or bungalow	detached	3	NA	NA	Care home - with nursing	NA
+6	Scotland	2011-11-17T00:00:00Z	2	39	Whole house or bungalow	detached	3	NA	NA	Care home - without nuring	NA
+6	Scotland	2011-11-17T00:00:00Z	2	39	Whole house or bungalow	detached	3	NA	NA	Other	NA
+39	Scotland	2011-11-17T00:00:00Z	2	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	General hospital	NA
+39	Scotland	2011-11-17T00:00:00Z	2	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Care home - with nursing	NA
+39	Scotland	2011-11-17T00:00:00Z	2	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Care home - without nuring	NA
+39	Scotland	2011-11-17T00:00:00Z	2	23	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Other	NA
+39	Scotland	2011-11-17T00:00:00Z	2	34	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	General hospital	NA
+39	Scotland	2011-11-17T00:00:00Z	2	34	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Care home - with nursing	NA
+39	Scotland	2011-11-17T00:00:00Z	2	34	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Care home - without nuring	NA
+39	Scotland	2011-11-17T00:00:00Z	2	34	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	NA	NA	Other	NA
+43	Scotland	2011-11-17T00:00:00Z	3	25	Whole house or bungalow	terraced	3	NA	NA	Other	NA
+43	Scotland	2011-11-17T00:00:00Z	3	29	Whole house or bungalow	terraced	3	NA	NA	Other	NA
+43	Scotland	2011-11-17T00:00:00Z	3	31	Whole house or bungalow	terraced	3	NA	NA	Other	NA
+1	South East	2011-11-17T00:00:00Z	3	5	Whole house or bungalow	detached	3	yes	2	Social landlord	Christian
+1	South East	2011-11-17T00:00:00Z	3	16	Whole house or bungalow	detached	3	yes	2	Social landlord	Christian
+1	South East	2011-11-17T00:00:00Z	3	51	Whole house or bungalow	detached	3	yes	2	Social landlord	Christian
+45	South East	2011-11-17T00:00:00Z	3	72	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+45	South East	2011-11-17T00:00:00Z	3	72	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+45	South East	2011-11-17T00:00:00Z	3	72	Whole house or bungalow	detached	4	yes	2	Other	Christian
+45	South East	2011-11-17T00:00:00Z	3	91	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+45	South East	2011-11-17T00:00:00Z	3	91	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+45	South East	2011-11-17T00:00:00Z	3	91	Whole house or bungalow	detached	4	yes	2	Other	Christian
+45	South East	2011-11-17T00:00:00Z	3	99	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+45	South East	2011-11-17T00:00:00Z	3	99	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+45	South East	2011-11-17T00:00:00Z	3	99	Whole house or bungalow	detached	4	yes	2	Other	Christian
+47	Wales	2011-11-17T00:00:00Z	3	27	Whole house or bungalow	detached	4	yes	2	General hospital	Christian
+47	Wales	2011-11-17T00:00:00Z	3	27	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+47	Wales	2011-11-17T00:00:00Z	3	27	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+47	Wales	2011-11-17T00:00:00Z	3	27	Whole house or bungalow	detached	4	yes	2	Other	Christian
+47	Wales	2011-11-17T00:00:00Z	3	28	Whole house or bungalow	detached	4	yes	2	General hospital	Christian
+47	Wales	2011-11-17T00:00:00Z	3	28	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+47	Wales	2011-11-17T00:00:00Z	3	28	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+47	Wales	2011-11-17T00:00:00Z	3	28	Whole house or bungalow	detached	4	yes	2	Other	Christian
+47	Wales	2011-11-17T00:00:00Z	3	29	Whole house or bungalow	detached	4	yes	2	General hospital	Christian
+47	Wales	2011-11-17T00:00:00Z	3	29	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+47	Wales	2011-11-17T00:00:00Z	3	29	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+47	Wales	2011-11-17T00:00:00Z	3	29	Whole house or bungalow	detached	4	yes	2	Other	Christian
+37	West Midlands	2011-11-17T00:00:00Z	2	25	Whole house or bungalow	semi-detached	4	yes	2	Other	Christian
+37	West Midlands	2011-11-17T00:00:00Z	2	29	Whole house or bungalow	semi-detached	4	yes	2	Other	Christian
+37	West Midlands	2011-11-17T00:00:00Z	2	21	Whole house or bungalow	semi-detached	4	yes	2	Other	Christian
+46	West Midlands	2011-11-17T00:00:00Z	3	3;41	Whole house or bungalow	semi-detached	4	yes	1	Mental health hospital	Muslim
+46	West Midlands	2011-11-17T00:00:00Z	3	3;41	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nursing	Muslim
+46	West Midlands	2011-11-17T00:00:00Z	3	3;41	Whole house or bungalow	semi-detached	4	yes	1	Other	Muslim
+46	West Midlands	2011-11-17T00:00:00Z	3	45	Whole house or bungalow	semi-detached	4	yes	1	Mental health hospital	Muslim
+46	West Midlands	2011-11-17T00:00:00Z	3	45	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nursing	Muslim
+46	West Midlands	2011-11-17T00:00:00Z	3	45	Whole house or bungalow	semi-detached	4	yes	1	Other	Muslim
+44	Yorkshire and The Humber	2011-11-17T00:00:00Z	1	70	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	Care home - with nursing	Christian
+44	Yorkshire and The Humber	2011-11-17T00:00:00Z	1	70	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	Care home - without nuring	Christian
+44	Yorkshire and The Humber	2011-11-17T00:00:00Z	1	70	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	Other	Christian
+71	East Midlands	2011-11-18T00:00:00Z	5	11	Whole house or bungalow	semi-detached	3	yes	1	Social landlord	Hindu
+71	East Midlands	2011-11-18T00:00:00Z	5	17	Whole house or bungalow	semi-detached	3	yes	1	Social landlord	Hindu
+71	East Midlands	2011-11-18T00:00:00Z	5	51	Whole house or bungalow	semi-detached	3	yes	1	Social landlord	Hindu
+71	East Midlands	2011-11-18T00:00:00Z	5	54	Whole house or bungalow	semi-detached	3	yes	1	Social landlord	Hindu
+71	East Midlands	2011-11-18T00:00:00Z	5	86	Whole house or bungalow	semi-detached	3	yes	1	Social landlord	Hindu
+11	East	2011-11-21T00:00:00Z	2	79	Whole house or bungalow	semi-detached	3	yes	2	Care home - without nursing	Christian
+11	East	2011-11-21T00:00:00Z	2	79	Whole house or bungalow	semi-detached	3	yes	2	Children home	Christian
+11	East	2011-11-21T00:00:00Z	2	79	Whole house or bungalow	semi-detached	3	yes	2	Other	Christian
+11	East	2011-11-21T00:00:00Z	2	81	Whole house or bungalow	semi-detached	3	yes	2	Care home - without nursing	Christian
+11	East	2011-11-21T00:00:00Z	2	81	Whole house or bungalow	semi-detached	3	yes	2	Children home	Christian
+11	East	2011-11-21T00:00:00Z	2	81	Whole house or bungalow	semi-detached	3	yes	2	Other	Christian
+12	East	2011-11-21T00:00:00Z	3	5	Whole house or bungalow	semi-detached	4	yes	2	General hospital	No religion
+12	East	2011-11-21T00:00:00Z	3	5	Whole house or bungalow	semi-detached	4	yes	2	Care home - with nursing	No religion
+12	East	2011-11-21T00:00:00Z	3	5	Whole house or bungalow	semi-detached	4	yes	2	Care home - without nuring	No religion
+12	East	2011-11-21T00:00:00Z	3	5	Whole house or bungalow	semi-detached	4	yes	2	Other	No religion
+12	East	2011-11-21T00:00:00Z	3	38	Whole house or bungalow	semi-detached	4	yes	2	General hospital	No religion
+12	East	2011-11-21T00:00:00Z	3	38	Whole house or bungalow	semi-detached	4	yes	2	Care home - with nursing	No religion
+12	East	2011-11-21T00:00:00Z	3	38	Whole house or bungalow	semi-detached	4	yes	2	Care home - without nuring	No religion
+12	East	2011-11-21T00:00:00Z	3	38	Whole house or bungalow	semi-detached	4	yes	2	Other	No religion
+12	East	2011-11-21T00:00:00Z	3	49	Whole house or bungalow	semi-detached	4	yes	2	General hospital	No religion
+12	East	2011-11-21T00:00:00Z	3	49	Whole house or bungalow	semi-detached	4	yes	2	Care home - with nursing	No religion
+12	East	2011-11-21T00:00:00Z	3	49	Whole house or bungalow	semi-detached	4	yes	2	Care home - without nuring	No religion
+12	East	2011-11-21T00:00:00Z	3	49	Whole house or bungalow	semi-detached	4	yes	2	Other	No religion
+13	East	2011-11-21T00:00:00Z	2	7	Whole house or bungalow	semi-detached	3	yes	2	Care home - with nursing	Christian
+13	East	2011-11-21T00:00:00Z	2	7	Whole house or bungalow	semi-detached	3	yes	2	Care home - without nuring	Christian
+13	East	2011-11-21T00:00:00Z	2	7	Whole house or bungalow	semi-detached	3	yes	2	Other	Christian
+13	East	2011-11-21T00:00:00Z	2	23	Whole house or bungalow	semi-detached	3	yes	2	Care home - with nursing	Christian
+13	East	2011-11-21T00:00:00Z	2	23	Whole house or bungalow	semi-detached	3	yes	2	Care home - without nuring	Christian
+13	East	2011-11-21T00:00:00Z	2	23	Whole house or bungalow	semi-detached	3	yes	2	Other	Christian
+17	East	2011-11-21T00:00:00Z	2	31	Whole house or bungalow	detached	3	yes	2	Care home - without nursing	Christian
+17	East	2011-11-21T00:00:00Z	2	31	Whole house or bungalow	detached	3	yes	2	Children home	Christian
+17	East	2011-11-21T00:00:00Z	2	31	Whole house or bungalow	detached	3	yes	2	Other	Christian
+17	East	2011-11-21T00:00:00Z	2	31	Whole house or bungalow	detached	3	yes	2	Care home - without nursing	Christian
+17	East	2011-11-21T00:00:00Z	2	31	Whole house or bungalow	detached	3	yes	2	Children home	Christian
+17	East	2011-11-21T00:00:00Z	2	31	Whole house or bungalow	detached	3	yes	2	Other	Christian
+18	East	2011-11-21T00:00:00Z	2	61	Whole house or bungalow	detached	3	yes	1	Social landlord	Christian
+18	East	2011-11-21T00:00:00Z	2	69	Whole house or bungalow	detached	3	yes	1	Social landlord	Christian
+19	East	2011-11-21T00:00:00Z	2	33	Caravan or other mobile or temporary structure	NA	1	no	1	Care home - with nursing	Christian
+19	East	2011-11-21T00:00:00Z	2	33	Caravan or other mobile or temporary structure	NA	1	no	1	Care home - without nuring	Christian
+19	East	2011-11-21T00:00:00Z	2	33	Caravan or other mobile or temporary structure	NA	1	no	1	Other	Christian
+19	East	2011-11-21T00:00:00Z	2	42	Caravan or other mobile or temporary structure	NA	1	no	1	Care home - with nursing	Christian
+19	East	2011-11-21T00:00:00Z	2	42	Caravan or other mobile or temporary structure	NA	1	no	1	Care home - without nuring	Christian
+19	East	2011-11-21T00:00:00Z	2	42	Caravan or other mobile or temporary structure	NA	1	no	1	Other	Christian
+21	East	2011-11-21T00:00:00Z	2	81	Whole house or bungalow	detached	3	yes	1	Care home - with nursing	Christian
+21	East	2011-11-21T00:00:00Z	2	81	Whole house or bungalow	detached	3	yes	1	Care home - without nuring	Christian
+21	East	2011-11-21T00:00:00Z	2	81	Whole house or bungalow	detached	3	yes	1	Other	Christian
+21	East	2011-11-21T00:00:00Z	2	95	Whole house or bungalow	detached	3	yes	1	Care home - with nursing	Christian
+21	East	2011-11-21T00:00:00Z	2	95	Whole house or bungalow	detached	3	yes	1	Care home - without nuring	Christian
+21	East	2011-11-21T00:00:00Z	2	95	Whole house or bungalow	detached	3	yes	1	Other	Christian
+24	East	2011-11-21T00:00:00Z	3	32	Whole house or bungalow	terraced	3	yes	1	Care home - without nursing	No religion
+24	East	2011-11-21T00:00:00Z	3	32	Whole house or bungalow	terraced	3	yes	1	Children home	No religion
+24	East	2011-11-21T00:00:00Z	3	32	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+24	East	2011-11-21T00:00:00Z	3	62	Whole house or bungalow	terraced	3	yes	1	Care home - without nursing	No religion
+24	East	2011-11-21T00:00:00Z	3	62	Whole house or bungalow	terraced	3	yes	1	Children home	No religion
+24	East	2011-11-21T00:00:00Z	3	62	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+24	East	2011-11-21T00:00:00Z	3	68	Whole house or bungalow	terraced	3	yes	1	Care home - without nursing	No religion
+24	East	2011-11-21T00:00:00Z	3	68	Whole house or bungalow	terraced	3	yes	1	Children home	No religion
+24	East	2011-11-21T00:00:00Z	3	68	Whole house or bungalow	terraced	3	yes	1	Other	No religion
+26	East	2011-11-21T00:00:00Z	4	2	Whole house or bungalow	terraced	3	yes	1	Mental health hospital	Not stated
+26	East	2011-11-21T00:00:00Z	4	2	Whole house or bungalow	terraced	3	yes	1	Care home - without nursing	Not stated
+26	East	2011-11-21T00:00:00Z	4	2	Whole house or bungalow	terraced	3	yes	1	Other	Not stated
+26	East	2011-11-21T00:00:00Z	4	4	Whole house or bungalow	terraced	3	yes	1	Mental health hospital	Not stated
+26	East	2011-11-21T00:00:00Z	4	4	Whole house or bungalow	terraced	3	yes	1	Care home - without nursing	Not stated
+26	East	2011-11-21T00:00:00Z	4	4	Whole house or bungalow	terraced	3	yes	1	Other	Not stated
+26	East	2011-11-21T00:00:00Z	4	13	Whole house or bungalow	terraced	3	yes	1	Mental health hospital	Not stated
+26	East	2011-11-21T00:00:00Z	4	13	Whole house or bungalow	terraced	3	yes	1	Care home - without nursing	Not stated
+26	East	2011-11-21T00:00:00Z	4	13	Whole house or bungalow	terraced	3	yes	1	Other	Not stated
+26	East	2011-11-21T00:00:00Z	4	40	Whole house or bungalow	terraced	3	yes	1	Mental health hospital	Not stated
+26	East	2011-11-21T00:00:00Z	4	40	Whole house or bungalow	terraced	3	yes	1	Care home - without nursing	Not stated
+26	East	2011-11-21T00:00:00Z	4	40	Whole house or bungalow	terraced	3	yes	1	Other	Not stated
+28	London	2011-11-21T00:00:00Z	6	23	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - with nursing	Christian
+28	London	2011-11-21T00:00:00Z	6	23	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - without nuring	Christian
+28	London	2011-11-21T00:00:00Z	6	23	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Other	Christian
+28	London	2011-11-21T00:00:00Z	6	23	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - with nursing	Christian
+28	London	2011-11-21T00:00:00Z	6	23	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - without nuring	Christian
+28	London	2011-11-21T00:00:00Z	6	23	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Other	Christian
+28	London	2011-11-21T00:00:00Z	6	24 	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - with nursing	Christian
+28	London	2011-11-21T00:00:00Z	6	24 	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - without nuring	Christian
+28	London	2011-11-21T00:00:00Z	6	24 	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Other	Christian
+28	London	2011-11-21T00:00:00Z	6	26 	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - with nursing	Christian
+28	London	2011-11-21T00:00:00Z	6	26 	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - without nuring	Christian
+28	London	2011-11-21T00:00:00Z	6	26 	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Other	Christian
+28	London	2011-11-21T00:00:00Z	6	28	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - with nursing	Christian
+28	London	2011-11-21T00:00:00Z	6	28	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - without nuring	Christian
+28	London	2011-11-21T00:00:00Z	6	28	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Other	Christian
+28	London	2011-11-21T00:00:00Z	6	29	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - with nursing	Christian
+28	London	2011-11-21T00:00:00Z	6	29	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Care home - without nuring	Christian
+28	London	2011-11-21T00:00:00Z	6	29	Flat, maisonette or apartment	part of a converted or shared house	6	yes	0	Other	Christian
+15	North West	2011-11-21T00:00:00Z	3	44	Whole house or bungalow	terraced	2	yes	0	General hospital	No religion
+15	North West	2011-11-21T00:00:00Z	3	44	Whole house or bungalow	terraced	2	yes	0	Care home - with nursing	No religion
+15	North West	2011-11-21T00:00:00Z	3	44	Whole house or bungalow	terraced	2	yes	0	Care home - without nuring	No religion
+15	North West	2011-11-21T00:00:00Z	3	44	Whole house or bungalow	terraced	2	yes	0	Other	No religion
+15	North West	2011-11-21T00:00:00Z	3	50	Whole house or bungalow	terraced	2	yes	0	General hospital	No religion
+15	North West	2011-11-21T00:00:00Z	3	50	Whole house or bungalow	terraced	2	yes	0	Care home - with nursing	No religion
+15	North West	2011-11-21T00:00:00Z	3	50	Whole house or bungalow	terraced	2	yes	0	Care home - without nuring	No religion
+15	North West	2011-11-21T00:00:00Z	3	50	Whole house or bungalow	terraced	2	yes	0	Other	No religion
+15	North West	2011-11-21T00:00:00Z	3	84	Whole house or bungalow	terraced	2	yes	0	General hospital	No religion
+15	North West	2011-11-21T00:00:00Z	3	84	Whole house or bungalow	terraced	2	yes	0	Care home - with nursing	No religion
+15	North West	2011-11-21T00:00:00Z	3	84	Whole house or bungalow	terraced	2	yes	0	Care home - without nuring	No religion
+15	North West	2011-11-21T00:00:00Z	3	84	Whole house or bungalow	terraced	2	yes	0	Other	No religion
+33	North West	2011-11-21T00:00:00Z	3	1	Whole house or bungalow	detached	3	yes	1	Other	Christian
+33	North West	2011-11-21T00:00:00Z	3	31	Whole house or bungalow	detached	3	yes	1	Other	Christian
+33	North West	2011-11-21T00:00:00Z	3	32	Whole house or bungalow	detached	3	yes	1	Other	Christian
+22	Scotland	2011-11-21T00:00:00Z	3	17	Whole house or bungalow	detached	3	NA	NA	General hospital	NA
+22	Scotland	2011-11-21T00:00:00Z	3	17	Whole house or bungalow	detached	3	NA	NA	Care home - with nursing	NA
+22	Scotland	2011-11-21T00:00:00Z	3	17	Whole house or bungalow	detached	3	NA	NA	Care home - without nuring	NA
+22	Scotland	2011-11-21T00:00:00Z	3	17	Whole house or bungalow	detached	3	NA	NA	Other	NA
+22	Scotland	2011-11-21T00:00:00Z	3	23	Whole house or bungalow	detached	3	NA	NA	General hospital	NA
+22	Scotland	2011-11-21T00:00:00Z	3	23	Whole house or bungalow	detached	3	NA	NA	Care home - with nursing	NA
+22	Scotland	2011-11-21T00:00:00Z	3	23	Whole house or bungalow	detached	3	NA	NA	Care home - without nuring	NA
+22	Scotland	2011-11-21T00:00:00Z	3	23	Whole house or bungalow	detached	3	NA	NA	Other	NA
+22	Scotland	2011-11-21T00:00:00Z	3	53	Whole house or bungalow	detached	3	NA	NA	General hospital	NA
+22	Scotland	2011-11-21T00:00:00Z	3	53	Whole house or bungalow	detached	3	NA	NA	Care home - with nursing	NA
+22	Scotland	2011-11-21T00:00:00Z	3	53	Whole house or bungalow	detached	3	NA	NA	Care home - without nuring	NA
+22	Scotland	2011-11-21T00:00:00Z	3	53	Whole house or bungalow	detached	3	NA	NA	Other	NA
+27	Scotland	2011-11-21T00:00:00Z	4	12	Whole house or bungalow	detached	4	NA	NA	Other	NA
+27	Scotland	2011-11-21T00:00:00Z	4	14	Whole house or bungalow	detached	4	NA	NA	Other	NA
+27	Scotland	2011-11-21T00:00:00Z	4	39	Whole house or bungalow	detached	4	NA	NA	Other	NA
+27	Scotland	2011-11-21T00:00:00Z	4	40	Whole house or bungalow	detached	4	NA	NA	Other	NA
+30	Scotland	2011-11-21T00:00:00Z	4	3	Whole house or bungalow	semi-detached	4	NA	NA	General hospital	NA
+30	Scotland	2011-11-21T00:00:00Z	4	3	Whole house or bungalow	semi-detached	4	NA	NA	Care home - with nursing	NA
+30	Scotland	2011-11-21T00:00:00Z	4	3	Whole house or bungalow	semi-detached	4	NA	NA	Care home - without nuring	NA
+30	Scotland	2011-11-21T00:00:00Z	4	3	Whole house or bungalow	semi-detached	4	NA	NA	Other	NA
+30	Scotland	2011-11-21T00:00:00Z	4	8	Whole house or bungalow	semi-detached	4	NA	NA	General hospital	NA
+30	Scotland	2011-11-21T00:00:00Z	4	8	Whole house or bungalow	semi-detached	4	NA	NA	Care home - with nursing	NA
+30	Scotland	2011-11-21T00:00:00Z	4	8	Whole house or bungalow	semi-detached	4	NA	NA	Care home - without nuring	NA
+30	Scotland	2011-11-21T00:00:00Z	4	8	Whole house or bungalow	semi-detached	4	NA	NA	Other	NA
+30	Scotland	2011-11-21T00:00:00Z	4	38	Whole house or bungalow	semi-detached	4	NA	NA	General hospital	NA
+30	Scotland	2011-11-21T00:00:00Z	4	38	Whole house or bungalow	semi-detached	4	NA	NA	Care home - with nursing	NA
+30	Scotland	2011-11-21T00:00:00Z	4	38	Whole house or bungalow	semi-detached	4	NA	NA	Care home - without nuring	NA
+30	Scotland	2011-11-21T00:00:00Z	4	38	Whole house or bungalow	semi-detached	4	NA	NA	Other	NA
+30	Scotland	2011-11-21T00:00:00Z	4	49	Whole house or bungalow	semi-detached	4	NA	NA	General hospital	NA
+30	Scotland	2011-11-21T00:00:00Z	4	49	Whole house or bungalow	semi-detached	4	NA	NA	Care home - with nursing	NA
+30	Scotland	2011-11-21T00:00:00Z	4	49	Whole house or bungalow	semi-detached	4	NA	NA	Care home - without nuring	NA
+30	Scotland	2011-11-21T00:00:00Z	4	49	Whole house or bungalow	semi-detached	4	NA	NA	Other	NA
+14	South East	2011-11-21T00:00:00Z	4	7	Whole house or bungalow	detached	3	yes	2	Other	Christian
+14	South East	2011-11-21T00:00:00Z	4	10	Whole house or bungalow	detached	3	yes	2	Other	Christian
+14	South East	2011-11-21T00:00:00Z	4	41	Whole house or bungalow	detached	3	yes	2	Other	Christian
+14	South East	2011-11-21T00:00:00Z	4	45	Whole house or bungalow	detached	3	yes	2	Other	Christian
+20	South West	2011-11-21T00:00:00Z	3	2	Whole house or bungalow	detached	6	yes	3	General hospital	Christian
+20	South West	2011-11-21T00:00:00Z	3	2	Whole house or bungalow	detached	6	yes	3	Care home - with nursing	Christian
+20	South West	2011-11-21T00:00:00Z	3	2	Whole house or bungalow	detached	6	yes	3	Care home - without nuring	Christian
+20	South West	2011-11-21T00:00:00Z	3	2	Whole house or bungalow	detached	6	yes	3	Other	Christian
+20	South West	2011-11-21T00:00:00Z	3	28	Whole house or bungalow	detached	6	yes	3	General hospital	Christian
+20	South West	2011-11-21T00:00:00Z	3	28	Whole house or bungalow	detached	6	yes	3	Care home - with nursing	Christian
+20	South West	2011-11-21T00:00:00Z	3	28	Whole house or bungalow	detached	6	yes	3	Care home - without nuring	Christian
+20	South West	2011-11-21T00:00:00Z	3	28	Whole house or bungalow	detached	6	yes	3	Other	Christian
+20	South West	2011-11-21T00:00:00Z	3	28	Whole house or bungalow	detached	6	yes	3	General hospital	Christian
+20	South West	2011-11-21T00:00:00Z	3	28	Whole house or bungalow	detached	6	yes	3	Care home - with nursing	Christian
+20	South West	2011-11-21T00:00:00Z	3	28	Whole house or bungalow	detached	6	yes	3	Care home - without nuring	Christian
+20	South West	2011-11-21T00:00:00Z	3	28	Whole house or bungalow	detached	6	yes	3	Other	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	6	Whole house or bungalow	detached	4	yes	2	General hospital	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	6	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	6	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	6	Whole house or bungalow	detached	4	yes	2	Other	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	7	Whole house or bungalow	detached	4	yes	2	General hospital	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	7	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	7	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	7	Whole house or bungalow	detached	4	yes	2	Other	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	35	Whole house or bungalow	detached	4	yes	2	General hospital	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	35	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	35	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	35	Whole house or bungalow	detached	4	yes	2	Other	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	38	Whole house or bungalow	detached	4	yes	2	General hospital	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	38	Whole house or bungalow	detached	4	yes	2	Care home - with nursing	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	38	Whole house or bungalow	detached	4	yes	2	Care home - without nuring	Christian
+23	West Midlands	2011-11-21T00:00:00Z	4	38	Whole house or bungalow	detached	4	yes	2	Other	Christian
+25	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	81	Whole house or bungalow	detached	3	yes	3	Other	Christian
+25	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	89	Whole house or bungalow	detached	3	yes	3	Other	Christian
+31	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	23	Whole house or bungalow	detached	5	yes	2	General hospital	Christian
+31	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	23	Whole house or bungalow	detached	5	yes	2	Care home - with nursing	Christian
+31	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	23	Whole house or bungalow	detached	5	yes	2	Care home - without nuring	Christian
+31	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	23	Whole house or bungalow	detached	5	yes	2	Other	Christian
+31	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	25	Whole house or bungalow	detached	5	yes	2	General hospital	Christian
+31	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	25	Whole house or bungalow	detached	5	yes	2	Care home - with nursing	Christian
+31	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	25	Whole house or bungalow	detached	5	yes	2	Care home - without nuring	Christian
+31	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	25	Whole house or bungalow	detached	5	yes	2	Other	Christian
+32	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	84	Flat, maisonette or apartment	in a commercial building	2	no	0	Social landlord	Christian
+32	Yorkshire and The Humber	2011-11-21T00:00:00Z	2	85	Flat, maisonette or apartment	in a commercial building	2	no	0	Social landlord	Christian
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	1	Whole house or bungalow	terraced	2	yes	2	General hospital	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	1	Whole house or bungalow	terraced	2	yes	2	Care home - with nursing	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	1	Whole house or bungalow	terraced	2	yes	2	Care home - without nuring	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	1	Whole house or bungalow	terraced	2	yes	2	Other	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	25	Whole house or bungalow	terraced	2	yes	2	General hospital	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	25	Whole house or bungalow	terraced	2	yes	2	Care home - with nursing	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	25	Whole house or bungalow	terraced	2	yes	2	Care home - without nuring	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	25	Whole house or bungalow	terraced	2	yes	2	Other	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	26	Whole house or bungalow	terraced	2	yes	2	General hospital	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	26	Whole house or bungalow	terraced	2	yes	2	Care home - with nursing	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	26	Whole house or bungalow	terraced	2	yes	2	Care home - without nuring	No religion
+201	Yorkshire and The Humber	2011-11-21T00:00:00Z	3	26	Whole house or bungalow	terraced	2	yes	2	Other	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	9	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	9	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	9	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	11	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	11	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	11	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	35	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	35	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	35	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	36	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	36	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	No religion
+133	Yorkshire and The Humber	2011-11-23T00:00:00Z	4	36	Whole house or bungalow	semi-detached	4	yes	1	Other	No religion
+16	London	2011-11-24T00:00:00Z	7	25	Flat, maisonette or apartment	purpose-built block of flats or tenement	5	yes	0	Other	Christian
+16	London	2011-11-24T00:00:00Z	7	25	Flat, maisonette or apartment	purpose-built block of flats or tenement	5	yes	0	Other	Christian
+16	London	2011-11-24T00:00:00Z	7	26	Flat, maisonette or apartment	purpose-built block of flats or tenement	5	yes	0	Other	Christian
+16	London	2011-11-24T00:00:00Z	7	27;29	Flat, maisonette or apartment	purpose-built block of flats or tenement	5	yes	0	Other	Christian
+16	London	2011-11-24T00:00:00Z	7	32	Flat, maisonette or apartment	purpose-built block of flats or tenement	5	yes	0	Other	Christian
+16	London	2011-11-24T00:00:00Z	7	35	Flat, maisonette or apartment	purpose-built block of flats or tenement	5	yes	0	Other	Christian
+155	North West	2011-11-24T00:00:00Z	4	15	Whole house or bungalow	detached	3	yes	2	Care home - without nursing	Christian
+155	North West	2011-11-24T00:00:00Z	4	15	Whole house or bungalow	detached	3	yes	2	Children home	Christian
+155	North West	2011-11-24T00:00:00Z	4	15	Whole house or bungalow	detached	3	yes	2	Other	Christian
+155	North West	2011-11-24T00:00:00Z	4	17	Whole house or bungalow	detached	3	yes	2	Care home - without nursing	Christian
+155	North West	2011-11-24T00:00:00Z	4	17	Whole house or bungalow	detached	3	yes	2	Children home	Christian
+155	North West	2011-11-24T00:00:00Z	4	17	Whole house or bungalow	detached	3	yes	2	Other	Christian
+155	North West	2011-11-24T00:00:00Z	4	45	Whole house or bungalow	detached	3	yes	2	Care home - without nursing	Christian
+155	North West	2011-11-24T00:00:00Z	4	45	Whole house or bungalow	detached	3	yes	2	Children home	Christian
+155	North West	2011-11-24T00:00:00Z	4	45	Whole house or bungalow	detached	3	yes	2	Other	Christian
+155	North West	2011-11-24T00:00:00Z	4	46	Whole house or bungalow	detached	3	yes	2	Care home - without nursing	Christian
+155	North West	2011-11-24T00:00:00Z	4	46	Whole house or bungalow	detached	3	yes	2	Children home	Christian
+155	North West	2011-11-24T00:00:00Z	4	46	Whole house or bungalow	detached	3	yes	2	Other	Christian
+152	Northern Ireland	2011-11-24T00:00:00Z	5	13	Whole house or bungalow	terraced	3	NA	NA	Care home - with nursing	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	13	Whole house or bungalow	terraced	3	NA	NA	Care home - without nuring	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	13	Whole house or bungalow	terraced	3	NA	NA	Other	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	16	Whole house or bungalow	terraced	3	NA	NA	Care home - with nursing	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	16	Whole house or bungalow	terraced	3	NA	NA	Care home - without nuring	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	16	Whole house or bungalow	terraced	3	NA	NA	Other	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	32	Whole house or bungalow	terraced	3	NA	NA	Care home - with nursing	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	32	Whole house or bungalow	terraced	3	NA	NA	Care home - without nuring	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	32	Whole house or bungalow	terraced	3	NA	NA	Other	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	37	Whole house or bungalow	terraced	3	NA	NA	Care home - with nursing	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	37	Whole house or bungalow	terraced	3	NA	NA	Care home - without nuring	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	37	Whole house or bungalow	terraced	3	NA	NA	Other	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	70	Whole house or bungalow	terraced	3	NA	NA	Care home - with nursing	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	70	Whole house or bungalow	terraced	3	NA	NA	Care home - without nuring	NA
+152	Northern Ireland	2011-11-24T00:00:00Z	5	70	Whole house or bungalow	terraced	3	NA	NA	Other	NA
+153	Wales	2011-11-24T00:00:00Z	4	24	Whole house or bungalow	terraced	4	yes	1	General hospital	No religion
+153	Wales	2011-11-24T00:00:00Z	4	24	Whole house or bungalow	terraced	4	yes	1	Care home - with nursing	No religion
+153	Wales	2011-11-24T00:00:00Z	4	24	Whole house or bungalow	terraced	4	yes	1	Care home - without nuring	No religion
+153	Wales	2011-11-24T00:00:00Z	4	24	Whole house or bungalow	terraced	4	yes	1	Other	No religion
+153	Wales	2011-11-24T00:00:00Z	4	25	Whole house or bungalow	terraced	4	yes	1	General hospital	No religion
+153	Wales	2011-11-24T00:00:00Z	4	25	Whole house or bungalow	terraced	4	yes	1	Care home - with nursing	No religion
+153	Wales	2011-11-24T00:00:00Z	4	25	Whole house or bungalow	terraced	4	yes	1	Care home - without nuring	No religion
+153	Wales	2011-11-24T00:00:00Z	4	25	Whole house or bungalow	terraced	4	yes	1	Other	No religion
+153	Wales	2011-11-24T00:00:00Z	4	26	Whole house or bungalow	terraced	4	yes	1	General hospital	No religion
+153	Wales	2011-11-24T00:00:00Z	4	26	Whole house or bungalow	terraced	4	yes	1	Care home - with nursing	No religion
+153	Wales	2011-11-24T00:00:00Z	4	26	Whole house or bungalow	terraced	4	yes	1	Care home - without nuring	No religion
+153	Wales	2011-11-24T00:00:00Z	4	26	Whole house or bungalow	terraced	4	yes	1	Other	No religion
+153	Wales	2011-11-24T00:00:00Z	4	27	Whole house or bungalow	terraced	4	yes	1	General hospital	No religion
+153	Wales	2011-11-24T00:00:00Z	4	27	Whole house or bungalow	terraced	4	yes	1	Care home - with nursing	No religion
+153	Wales	2011-11-24T00:00:00Z	4	27	Whole house or bungalow	terraced	4	yes	1	Care home - without nuring	No religion
+153	Wales	2011-11-24T00:00:00Z	4	27	Whole house or bungalow	terraced	4	yes	1	Other	No religion
+182	Scotland	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	5	NA	NA	Care home - without nursing	NA
+182	Scotland	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	5	NA	NA	Children home	NA
+182	Scotland	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	5	NA	NA	Other	NA
+182	Scotland	2011-11-25T00:00:00Z	5	23	Whole house or bungalow	terraced	5	NA	NA	Care home - without nursing	NA
+182	Scotland	2011-11-25T00:00:00Z	5	23	Whole house or bungalow	terraced	5	NA	NA	Children home	NA
+182	Scotland	2011-11-25T00:00:00Z	5	23	Whole house or bungalow	terraced	5	NA	NA	Other	NA
+182	Scotland	2011-11-25T00:00:00Z	5	25	Whole house or bungalow	terraced	5	NA	NA	Care home - without nursing	NA
+182	Scotland	2011-11-25T00:00:00Z	5	25	Whole house or bungalow	terraced	5	NA	NA	Children home	NA
+182	Scotland	2011-11-25T00:00:00Z	5	25	Whole house or bungalow	terraced	5	NA	NA	Other	NA
+182	Scotland	2011-11-25T00:00:00Z	5	28	Whole house or bungalow	terraced	5	NA	NA	Care home - without nursing	NA
+182	Scotland	2011-11-25T00:00:00Z	5	28	Whole house or bungalow	terraced	5	NA	NA	Children home	NA
+182	Scotland	2011-11-25T00:00:00Z	5	28	Whole house or bungalow	terraced	5	NA	NA	Other	NA
+182	Scotland	2011-11-25T00:00:00Z	5	29	Whole house or bungalow	terraced	5	NA	NA	Care home - without nursing	NA
+182	Scotland	2011-11-25T00:00:00Z	5	29	Whole house or bungalow	terraced	5	NA	NA	Children home	NA
+182	Scotland	2011-11-25T00:00:00Z	5	29	Whole house or bungalow	terraced	5	NA	NA	Other	NA
+180	South East	2011-11-25T00:00:00Z	4	19	Flat, maisonette or apartment	purpose-built block of flats or tenement	4	yes	0	Other	Christian
+180	South East	2011-11-25T00:00:00Z	4	20	Flat, maisonette or apartment	purpose-built block of flats or tenement	4	yes	0	Other	Christian
+180	South East	2011-11-25T00:00:00Z	4	20	Flat, maisonette or apartment	purpose-built block of flats or tenement	4	yes	0	Other	Christian
+180	South East	2011-11-25T00:00:00Z	4	21	Flat, maisonette or apartment	purpose-built block of flats or tenement	4	yes	0	Other	Christian
+181	South East	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	4	yes	1	General hospital	Muslim
+181	South East	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	4	yes	1	Care home - with nursing	Muslim
+181	South East	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	4	yes	1	Care home - without nuring	Muslim
+181	South East	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	4	yes	1	Other	Muslim
+181	South East	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	4	yes	1	General hospital	Muslim
+181	South East	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	4	yes	1	Care home - with nursing	Muslim
+181	South East	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	4	yes	1	Care home - without nuring	Muslim
+181	South East	2011-11-25T00:00:00Z	5	22	Whole house or bungalow	terraced	4	yes	1	Other	Muslim
+181	South East	2011-11-25T00:00:00Z	5	23	Whole house or bungalow	terraced	4	yes	1	General hospital	Muslim
+181	South East	2011-11-25T00:00:00Z	5	23	Whole house or bungalow	terraced	4	yes	1	Care home - with nursing	Muslim
+181	South East	2011-11-25T00:00:00Z	5	23	Whole house or bungalow	terraced	4	yes	1	Care home - without nuring	Muslim
+181	South East	2011-11-25T00:00:00Z	5	23	Whole house or bungalow	terraced	4	yes	1	Other	Muslim
+181	South East	2011-11-25T00:00:00Z	5	24	Whole house or bungalow	terraced	4	yes	1	General hospital	Muslim
+181	South East	2011-11-25T00:00:00Z	5	24	Whole house or bungalow	terraced	4	yes	1	Care home - with nursing	Muslim
+181	South East	2011-11-25T00:00:00Z	5	24	Whole house or bungalow	terraced	4	yes	1	Care home - without nuring	Muslim
+181	South East	2011-11-25T00:00:00Z	5	24	Whole house or bungalow	terraced	4	yes	1	Other	Muslim
+181	South East	2011-11-25T00:00:00Z	5	24	Whole house or bungalow	terraced	4	yes	1	General hospital	Muslim
+181	South East	2011-11-25T00:00:00Z	5	24	Whole house or bungalow	terraced	4	yes	1	Care home - with nursing	Muslim
+181	South East	2011-11-25T00:00:00Z	5	24	Whole house or bungalow	terraced	4	yes	1	Care home - without nuring	Muslim
+181	South East	2011-11-25T00:00:00Z	5	24	Whole house or bungalow	terraced	4	yes	1	Other	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	20	Whole house or bungalow	semi-detached	4	yes	1	Mental health hospital	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	20	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nursing	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	20	Whole house or bungalow	semi-detached	4	yes	1	Other	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	20	Whole house or bungalow	semi-detached	4	yes	1	Mental health hospital	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	20	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nursing	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	20	Whole house or bungalow	semi-detached	4	yes	1	Other	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	20	Whole house or bungalow	semi-detached	4	yes	1	Mental health hospital	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	20	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nursing	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	20	Whole house or bungalow	semi-detached	4	yes	1	Other	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	21	Whole house or bungalow	semi-detached	4	yes	1	Mental health hospital	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	21	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nursing	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	21	Whole house or bungalow	semi-detached	4	yes	1	Other	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	21	Whole house or bungalow	semi-detached	4	yes	1	Mental health hospital	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	21	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nursing	Muslim
+177	Yorkshire and The Humber	2011-11-25T00:00:00Z	5	21	Whole house or bungalow	semi-detached	4	yes	1	Other	Muslim
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	General hospital	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	Care home - with nursing	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	Care home - without nuring	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	Other	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	General hospital	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	Care home - with nursing	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	Care home - without nuring	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	Other	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	General hospital	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	Care home - with nursing	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	Care home - without nuring	Christian
+187	East	2011-11-28T00:00:00Z	5	20	Whole house or bungalow	detached	6	yes	3	Other	Christian
+187	East	2011-11-28T00:00:00Z	5	21	Whole house or bungalow	detached	6	yes	3	General hospital	Christian
+187	East	2011-11-28T00:00:00Z	5	21	Whole house or bungalow	detached	6	yes	3	Care home - with nursing	Christian
+187	East	2011-11-28T00:00:00Z	5	21	Whole house or bungalow	detached	6	yes	3	Care home - without nuring	Christian
+187	East	2011-11-28T00:00:00Z	5	21	Whole house or bungalow	detached	6	yes	3	Other	Christian
+187	East	2011-11-28T00:00:00Z	5	21	Whole house or bungalow	detached	6	yes	3	General hospital	Christian
+187	East	2011-11-28T00:00:00Z	5	21	Whole house or bungalow	detached	6	yes	3	Care home - with nursing	Christian
+187	East	2011-11-28T00:00:00Z	5	21	Whole house or bungalow	detached	6	yes	3	Care home - without nuring	Christian
+187	East	2011-11-28T00:00:00Z	5	21	Whole house or bungalow	detached	6	yes	3	Other	Christian
+197	London	2011-11-28T00:00:00Z	8	26	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	General hospital	Christian
+197	London	2011-11-28T00:00:00Z	8	26	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - with nursing	Christian
+197	London	2011-11-28T00:00:00Z	8	26	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - without nuring	Christian
+197	London	2011-11-28T00:00:00Z	8	26	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Other	Christian
+197	London	2011-11-28T00:00:00Z	8	26	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	General hospital	Christian
+197	London	2011-11-28T00:00:00Z	8	26	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - with nursing	Christian
+197	London	2011-11-28T00:00:00Z	8	26	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - without nuring	Christian
+197	London	2011-11-28T00:00:00Z	8	26	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Other	Christian
+197	London	2011-11-28T00:00:00Z	8	27	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	General hospital	Christian
+197	London	2011-11-28T00:00:00Z	8	27	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - with nursing	Christian
+197	London	2011-11-28T00:00:00Z	8	27	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - without nuring	Christian
+197	London	2011-11-28T00:00:00Z	8	27	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Other	Christian
+197	London	2011-11-28T00:00:00Z	8	29	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	General hospital	Christian
+197	London	2011-11-28T00:00:00Z	8	29	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - with nursing	Christian
+197	London	2011-11-28T00:00:00Z	8	29	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - without nuring	Christian
+197	London	2011-11-28T00:00:00Z	8	29	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Other	Christian
+197	London	2011-11-28T00:00:00Z	8	30	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	General hospital	Christian
+197	London	2011-11-28T00:00:00Z	8	30	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - with nursing	Christian
+197	London	2011-11-28T00:00:00Z	8	30	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - without nuring	Christian
+197	London	2011-11-28T00:00:00Z	8	30	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Other	Christian
+197	London	2011-11-28T00:00:00Z	8	31	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	General hospital	Christian
+197	London	2011-11-28T00:00:00Z	8	31	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - with nursing	Christian
+197	London	2011-11-28T00:00:00Z	8	31	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - without nuring	Christian
+197	London	2011-11-28T00:00:00Z	8	31	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Other	Christian
+197	London	2011-11-28T00:00:00Z	8	36	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	General hospital	Christian
+197	London	2011-11-28T00:00:00Z	8	36	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - with nursing	Christian
+197	London	2011-11-28T00:00:00Z	8	36	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - without nuring	Christian
+197	London	2011-11-28T00:00:00Z	8	36	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Other	Christian
+197	London	2011-11-28T00:00:00Z	8	43 47	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	General hospital	Christian
+197	London	2011-11-28T00:00:00Z	8	43 47	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - with nursing	Christian
+197	London	2011-11-28T00:00:00Z	8	43 47	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Care home - without nuring	Christian
+197	London	2011-11-28T00:00:00Z	8	43 47	Flat, maisonette or apartment	part of a converted or shared house	8	yes	1	Other	Christian
+196	North West	2011-11-28T00:00:00Z	5	2	Whole house or bungalow	semi-detached	4	yes	3	Mental health hospital	Muslim
+196	North West	2011-11-28T00:00:00Z	5	2	Whole house or bungalow	semi-detached	4	yes	3	Care home - without nursing	Muslim
+196	North West	2011-11-28T00:00:00Z	5	2	Whole house or bungalow	semi-detached	4	yes	3	Other	Muslim
+196	North West	2011-11-28T00:00:00Z	5	10	Whole house or bungalow	semi-detached	4	yes	3	Mental health hospital	Muslim
+196	North West	2011-11-28T00:00:00Z	5	10	Whole house or bungalow	semi-detached	4	yes	3	Care home - without nursing	Muslim
+196	North West	2011-11-28T00:00:00Z	5	10	Whole house or bungalow	semi-detached	4	yes	3	Other	Muslim
+196	North West	2011-11-28T00:00:00Z	5	13	Whole house or bungalow	semi-detached	4	yes	3	Mental health hospital	Muslim
+196	North West	2011-11-28T00:00:00Z	5	13	Whole house or bungalow	semi-detached	4	yes	3	Care home - without nursing	Muslim
+196	North West	2011-11-28T00:00:00Z	5	13	Whole house or bungalow	semi-detached	4	yes	3	Other	Muslim
+196	North West	2011-11-28T00:00:00Z	5	51	Whole house or bungalow	semi-detached	4	yes	3	Mental health hospital	Muslim
+196	North West	2011-11-28T00:00:00Z	5	51	Whole house or bungalow	semi-detached	4	yes	3	Care home - without nursing	Muslim
+196	North West	2011-11-28T00:00:00Z	5	51	Whole house or bungalow	semi-detached	4	yes	3	Other	Muslim
+196	North West	2011-11-28T00:00:00Z	5	55	Whole house or bungalow	semi-detached	4	yes	3	Mental health hospital	Muslim
+196	North West	2011-11-28T00:00:00Z	5	55	Whole house or bungalow	semi-detached	4	yes	3	Care home - without nursing	Muslim
+196	North West	2011-11-28T00:00:00Z	5	55	Whole house or bungalow	semi-detached	4	yes	3	Other	Muslim
+195	South East	2011-11-28T00:00:00Z	6	24	Whole house or bungalow	semi-detached	6	yes	1	Care home - with nursing	Christian
+195	South East	2011-11-28T00:00:00Z	6	24	Whole house or bungalow	semi-detached	6	yes	1	Care home - without nuring	Christian
+195	South East	2011-11-28T00:00:00Z	6	24	Whole house or bungalow	semi-detached	6	yes	1	Other	Christian
+195	South East	2011-11-28T00:00:00Z	6	27	Whole house or bungalow	semi-detached	6	yes	1	Care home - with nursing	Christian
+195	South East	2011-11-28T00:00:00Z	6	27	Whole house or bungalow	semi-detached	6	yes	1	Care home - without nuring	Christian
+195	South East	2011-11-28T00:00:00Z	6	27	Whole house or bungalow	semi-detached	6	yes	1	Other	Christian
+195	South East	2011-11-28T00:00:00Z	6	28	Whole house or bungalow	semi-detached	6	yes	1	Care home - with nursing	Christian
+195	South East	2011-11-28T00:00:00Z	6	28	Whole house or bungalow	semi-detached	6	yes	1	Care home - without nuring	Christian
+195	South East	2011-11-28T00:00:00Z	6	28	Whole house or bungalow	semi-detached	6	yes	1	Other	Christian
+195	South East	2011-11-28T00:00:00Z	6	28	Whole house or bungalow	semi-detached	6	yes	1	Care home - with nursing	Christian
+195	South East	2011-11-28T00:00:00Z	6	28	Whole house or bungalow	semi-detached	6	yes	1	Care home - without nuring	Christian
+195	South East	2011-11-28T00:00:00Z	6	28	Whole house or bungalow	semi-detached	6	yes	1	Other	Christian
+195	South East	2011-11-28T00:00:00Z	6	30	Whole house or bungalow	semi-detached	6	yes	1	Care home - with nursing	Christian
+195	South East	2011-11-28T00:00:00Z	6	30	Whole house or bungalow	semi-detached	6	yes	1	Care home - without nuring	Christian
+195	South East	2011-11-28T00:00:00Z	6	30	Whole house or bungalow	semi-detached	6	yes	1	Other	Christian
+195	South East	2011-11-28T00:00:00Z	6	33	Whole house or bungalow	semi-detached	6	yes	1	Care home - with nursing	Christian
+195	South East	2011-11-28T00:00:00Z	6	33	Whole house or bungalow	semi-detached	6	yes	1	Care home - without nuring	Christian
+195	South East	2011-11-28T00:00:00Z	6	33	Whole house or bungalow	semi-detached	6	yes	1	Other	Christian
+186	South West	2011-11-28T00:00:00Z	4	9	Whole house or bungalow	detached	3	yes	1	Care home - without nursing	Christian
+186	South West	2011-11-28T00:00:00Z	4	9	Whole house or bungalow	detached	3	yes	1	Children home	Christian
+186	South West	2011-11-28T00:00:00Z	4	9	Whole house or bungalow	detached	3	yes	1	Other	Christian
+186	South West	2011-11-28T00:00:00Z	4	12	Whole house or bungalow	detached	3	yes	1	Care home - without nursing	Christian
+186	South West	2011-11-28T00:00:00Z	4	12	Whole house or bungalow	detached	3	yes	1	Children home	Christian
+186	South West	2011-11-28T00:00:00Z	4	12	Whole house or bungalow	detached	3	yes	1	Other	Christian
+186	South West	2011-11-28T00:00:00Z	4	38	Whole house or bungalow	detached	3	yes	1	Care home - without nursing	Christian
+186	South West	2011-11-28T00:00:00Z	4	38	Whole house or bungalow	detached	3	yes	1	Children home	Christian
+186	South West	2011-11-28T00:00:00Z	4	38	Whole house or bungalow	detached	3	yes	1	Other	Christian
+186	South West	2011-11-28T00:00:00Z	4	39	Whole house or bungalow	detached	3	yes	1	Care home - without nursing	Christian
+186	South West	2011-11-28T00:00:00Z	4	39	Whole house or bungalow	detached	3	yes	1	Children home	Christian
+186	South West	2011-11-28T00:00:00Z	4	39	Whole house or bungalow	detached	3	yes	1	Other	Christian
+198	South West	2011-11-28T00:00:00Z	5	1	Whole house or bungalow	semi-detached	4	yes	2	General hospital	No religion
+198	South West	2011-11-28T00:00:00Z	5	1	Whole house or bungalow	semi-detached	4	yes	2	Care home - with nursing	No religion
+198	South West	2011-11-28T00:00:00Z	5	1	Whole house or bungalow	semi-detached	4	yes	2	Care home - without nuring	No religion
+198	South West	2011-11-28T00:00:00Z	5	1	Whole house or bungalow	semi-detached	4	yes	2	Other	No religion
+198	South West	2011-11-28T00:00:00Z	5	3	Whole house or bungalow	semi-detached	4	yes	2	General hospital	No religion
+198	South West	2011-11-28T00:00:00Z	5	3	Whole house or bungalow	semi-detached	4	yes	2	Care home - with nursing	No religion
+198	South West	2011-11-28T00:00:00Z	5	3	Whole house or bungalow	semi-detached	4	yes	2	Care home - without nuring	No religion
+198	South West	2011-11-28T00:00:00Z	5	3	Whole house or bungalow	semi-detached	4	yes	2	Other	No religion
+198	South West	2011-11-28T00:00:00Z	5	7	Whole house or bungalow	semi-detached	4	yes	2	General hospital	No religion
+198	South West	2011-11-28T00:00:00Z	5	7	Whole house or bungalow	semi-detached	4	yes	2	Care home - with nursing	No religion
+198	South West	2011-11-28T00:00:00Z	5	7	Whole house or bungalow	semi-detached	4	yes	2	Care home - without nuring	No religion
+198	South West	2011-11-28T00:00:00Z	5	7	Whole house or bungalow	semi-detached	4	yes	2	Other	No religion
+198	South West	2011-11-28T00:00:00Z	5	30	Whole house or bungalow	semi-detached	4	yes	2	General hospital	No religion
+198	South West	2011-11-28T00:00:00Z	5	30	Whole house or bungalow	semi-detached	4	yes	2	Care home - with nursing	No religion
+198	South West	2011-11-28T00:00:00Z	5	30	Whole house or bungalow	semi-detached	4	yes	2	Care home - without nuring	No religion
+198	South West	2011-11-28T00:00:00Z	5	30	Whole house or bungalow	semi-detached	4	yes	2	Other	No religion
+198	South West	2011-11-28T00:00:00Z	5	31	Whole house or bungalow	semi-detached	4	yes	2	General hospital	No religion
+198	South West	2011-11-28T00:00:00Z	5	31	Whole house or bungalow	semi-detached	4	yes	2	Care home - with nursing	No religion
+198	South West	2011-11-28T00:00:00Z	5	31	Whole house or bungalow	semi-detached	4	yes	2	Care home - without nuring	No religion
+198	South West	2011-11-28T00:00:00Z	5	31	Whole house or bungalow	semi-detached	4	yes	2	Other	No religion
+103	North East	NA	1	25	Whole house or bungalow	terraced	3	yes	2	Other	No religion
+143	North East	NA	1	42	Flat, maisonette or apartment	purpose-built block of flats or tenement	2	yes	0	Other	Christian
+68	North East	NA	2	21	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	Christian
+68	North East	NA	2	21	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	Christian
+68	North East	NA	2	21	Whole house or bungalow	semi-detached	4	yes	1	Other	Christian
+68	North East	NA	2	28	Whole house or bungalow	semi-detached	4	yes	1	Care home - with nursing	Christian
+68	North East	NA	2	28	Whole house or bungalow	semi-detached	4	yes	1	Care home - without nuring	Christian
+68	North East	NA	2	28	Whole house or bungalow	semi-detached	4	yes	1	Other	Christian
+7	North East	NA	2	36	Whole house or bungalow	semi-detached	3	yes	1	Mental health hospital	Christian
+7	North East	NA	2	36	Whole house or bungalow	semi-detached	3	yes	1	Care home - without nursing	Christian
+7	North East	NA	2	36	Whole house or bungalow	semi-detached	3	yes	1	Other	Christian
+7	North East	NA	2	39	Whole house or bungalow	semi-detached	3	yes	1	Mental health hospital	Christian
+7	North East	NA	2	39	Whole house or bungalow	semi-detached	3	yes	1	Care home - without nursing	Christian
+7	North East	NA	2	39	Whole house or bungalow	semi-detached	3	yes	1	Other	Christian
+29	North East	NA	3	1	Whole house or bungalow	detached	5	yes	3	Care home - without nursing	Christian
+29	North East	NA	3	1	Whole house or bungalow	detached	5	yes	3	Children home	Christian
+29	North East	NA	3	1	Whole house or bungalow	detached	5	yes	3	Other	Christian
+29	North East	NA	3	29	Whole house or bungalow	detached	5	yes	3	Care home - without nursing	Christian
+29	North East	NA	3	29	Whole house or bungalow	detached	5	yes	3	Children home	Christian
+29	North East	NA	3	29	Whole house or bungalow	detached	5	yes	3	Other	Christian
+29	North East	NA	3	33	Whole house or bungalow	detached	5	yes	3	Care home - without nursing	Christian
+29	North East	NA	3	33	Whole house or bungalow	detached	5	yes	3	Children home	Christian
+29	North East	NA	3	33	Whole house or bungalow	detached	5	yes	3	Other	Christian
+178	North East	NA	4	5	Whole house or bungalow	terraced	2	yes	0	Care home - without nursing	Not stated
+178	North East	NA	4	5	Whole house or bungalow	terraced	2	yes	0	Children home	Not stated
+178	North East	NA	4	5	Whole house or bungalow	terraced	2	yes	0	Other	Not stated
+178	North East	NA	4	7	Whole house or bungalow	terraced	2	yes	0	Care home - without nursing	Not stated
+178	North East	NA	4	7	Whole house or bungalow	terraced	2	yes	0	Children home	Not stated
+178	North East	NA	4	7	Whole house or bungalow	terraced	2	yes	0	Other	Not stated
+178	North East	NA	4	38	Whole house or bungalow	terraced	2	yes	0	Care home - without nursing	Not stated
+178	North East	NA	4	38	Whole house or bungalow	terraced	2	yes	0	Children home	Not stated
+178	North East	NA	4	38	Whole house or bungalow	terraced	2	yes	0	Other	Not stated
+178	North East	NA	4	40	Whole house or bungalow	terraced	2	yes	0	Care home - without nursing	Not stated
+178	North East	NA	4	40	Whole house or bungalow	terraced	2	yes	0	Children home	Not stated
+178	North East	NA	4	40	Whole house or bungalow	terraced	2	yes	0	Other	Not stated
+10	North East	NA	5	10	Whole house or bungalow	semi-detached	5	yes	1	General hospital	Christian
+10	North East	NA	5	10	Whole house or bungalow	semi-detached	5	yes	1	Care home - with nursing	Christian
+10	North East	NA	5	10	Whole house or bungalow	semi-detached	5	yes	1	Care home - without nuring	Christian
+10	North East	NA	5	10	Whole house or bungalow	semi-detached	5	yes	1	Other	Christian
+10	North East	NA	5	15	Whole house or bungalow	semi-detached	5	yes	1	General hospital	Christian
+10	North East	NA	5	15	Whole house or bungalow	semi-detached	5	yes	1	Care home - with nursing	Christian
+10	North East	NA	5	15	Whole house or bungalow	semi-detached	5	yes	1	Care home - without nuring	Christian
+10	North East	NA	5	15	Whole house or bungalow	semi-detached	5	yes	1	Other	Christian
+10	North East	NA	5	41	Whole house or bungalow	semi-detached	5	yes	1	General hospital	Christian
+10	North East	NA	5	41	Whole house or bungalow	semi-detached	5	yes	1	Care home - with nursing	Christian
+10	North East	NA	5	41	Whole house or bungalow	semi-detached	5	yes	1	Care home - without nuring	Christian
+10	North East	NA	5	41	Whole house or bungalow	semi-detached	5	yes	1	Other	Christian
+10	North East	NA	5	42	Whole house or bungalow	semi-detached	5	yes	1	General hospital	Christian
+10	North East	NA	5	42	Whole house or bungalow	semi-detached	5	yes	1	Care home - with nursing	Christian
+10	North East	NA	5	42	Whole house or bungalow	semi-detached	5	yes	1	Care home - without nuring	Christian
+10	North East	NA	5	42	Whole house or bungalow	semi-detached	5	yes	1	Other	Christian
+10	North East	NA	5	82	Whole house or bungalow	semi-detached	5	yes	1	General hospital	Christian
+10	North East	NA	5	82	Whole house or bungalow	semi-detached	5	yes	1	Care home - with nursing	Christian
+10	North East	NA	5	82	Whole house or bungalow	semi-detached	5	yes	1	Care home - without nuring	Christian
+10	North East	NA	5	82	Whole house or bungalow	semi-detached	5	yes	1	Other	Christian

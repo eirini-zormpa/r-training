@@ -1,5 +1,5 @@
-# session 2 - starting with data in r
-# date: 25 March 2024
+# session 3 - data wrangling
+# date: 8 April 2024
 # instructor: Eirini Zormpa
 
 # install.packages("tidyverse")
@@ -9,7 +9,7 @@ library(tidyverse)
 library(here)
 
 # read in data
-census_data <- read_csv(here("data_raw", "census_data.csv"), na = "NULL")
+census_data <- read_csv(here("data_raw", "synthetic-census-data.csv"), na = "NULL")
 View(census_data)
 
 # factors
@@ -121,14 +121,12 @@ census_data %>%
 census_data %>%
   filter(!is.na(central_heating)) %>% 
   group_by(central_heating, region) %>% 
-  summarise(median_bedroom = median(bedrooms)) %>% 
-  View()
+  summarise(median_bedroom = median(bedrooms))
 
 census_data %>%
   drop_na(central_heating) %>% 
   group_by(central_heating, region) %>% 
-  summarise(median_bedroom = median(bedrooms)) %>% 
-  View()
+  summarise(median_bedroom = median(bedrooms))
 
 # ungroup
 census_data %>% 
@@ -178,3 +176,19 @@ census_data %>%
   group_by(region) %>%
   filter(cars == max(cars))
 
+# separate
+census_long <- census_data %>%
+  separate_longer_delim(age, delim= "; ")
+
+census_long <- census_data %>%
+  separate_longer_delim(age, delim= "; ") %>% 
+  separate_longer_delim(community_establlishment, delim= "; ")
+
+census_clean <- census_long %>%
+  separate_wider_delim(dwelling_type,
+                       delim= " - ",
+                       names = c("dwelling_type", "dwelling_type_detail"),
+                       too_few = "align_start")
+
+# export data
+write_tsv(census_clean, here("data_processed", "census_clean.tsv"))
