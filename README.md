@@ -6,7 +6,7 @@ The links to the slides will be added below:
 
 - Slides for Session 1: [Introduction to R](https://thersaorg.github.io/r-training/slides/1_intro-to-R.html#/title-slide)
 - Slides for Session 2: [Getting started with data in R](https://thersaorg.github.io/r-training/slides/2_starting-with-data.html#/title-slide)
-- Slides for Session 3: Data wrangling with `tidyr` and `dplyr`
+- Slides for Session 3: [Data wrangling with `tidyr` and `dplyr`](https://thersaorg.github.io/r-training/slides/3_data-wrangling.html#/title-slide)
 - Slides for Session 4: Data visualisation with `ggplot2`
 - Slides for Session 5: Literate programming with Quarto
 
