@@ -139,12 +139,19 @@ Quote from Claus Wilke's [*Fundamentals of Data Visualization*](https://clauswil
 library(here)
 library(readr)
 library(dplyr)
+library(tidyr)
 library(ggplot2)
 library(viridisLite)
 library(hexbin)
 
-census_viz_data <- read_csv(here("data_raw", "synthetic-census-data.csv"),
+census_data <- read_csv(here("data_raw", "synthetic-census-data.csv"),
                         na = "NULL")
+
+census_viz_data <- census_data %>% 
+  separate_wider_delim(dwelling_type,
+                       names = c("dwelling_type", "dwelling_type_detail"),
+                       delim = " - ",
+                       too_few = "align_start")
 
 ```
 
@@ -375,7 +382,7 @@ Replace the box plot with a violin plot; see `geom_violin()`.
 #| eval: true
 
 census_viz_data %>% 
-  ggplot(aes(x = region, y =  bedrooms)) +
+  ggplot(aes(x = dwelling_type, y =  bedrooms)) +
   geom_violin(alpha = 0) +
   geom_jitter(alpha = 0.3,
               colour = "tomato",
